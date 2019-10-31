@@ -1,0 +1,11 @@
+[Unit]
+Description=Sanders Pool Schedule Timer
+After=network-online.target
+ 
+[Service]
+Type=simple
+ExecStart=/home/greg/poolctl/poolTimer.py
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target

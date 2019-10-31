@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+   <title>Pool Schedule Edit</title>
+   <!-- Latest compiled and minified CSS -->
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+   <!-- Latest compiled and minified JavaScript -->
+   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <!-- <META HTTP-EQUIV="refresh" CONTENT="5"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script>
+      function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('CLOCK').innerHTML =
+        "Current Time: " + h + ":" + m + ":" + s;
+        var t = setTimeout(startTime, 500);
+      }
+      function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+      }
+      </script>
+</head>
+
+<body onload="startTime()">
+  
+<div class="container-fluid">
+   <h1>Pool Schedule Edit</h1>
+   
+   <!--BUTTON TO UPDATE THIS PAGE  -->
+   <a href="/schdChng5/" class="btn btn-primary btn-sm" role="button">Update Status</a>
+   
+   <!--THE FORM -->
+    <form method='POST' action="{{ url_for('schdChng5') }}">
+        <label for='form'>Input new Start Time. (format 24hr "####") <br>Press ENTER, OK, Go.</label><br>
+        
+        {{ sched1[5].name}} : {{ sched1[5].time}} <br>
+        <input type='text' name='schedTime5' id='5'> <br>
+        <select name='selName'>
+          <option value='Pump Step 1'>Pump Step 1</option>
+          <option value='Pump Step 2'>Pump Step 2</option>
+          <option value='Pump Step 3'>Pump Step 3</option>
+          <option value='Pump Override'>Pump Override</option>
+          <option value='Pool Lights'>Pool Lights</option>
+        </select> <br>
+        <select name='selAct'>
+          <option value='on'>ON</option>
+          <option value='off'>OFF</option>
+        </select> <br>       
+        <input type='submit' value='GO' name='GO' id='go5'>
+
+         <!-- below is the part that does the flash message (not flash as in Adobe) -->
+         {% with messages = get_flashed_messages() %}
+         {% if messages %}
+           <ul class=flashes>
+           {% for message in messages %}
+             <li>{{ message }}</li>
+           {% endfor %}
+         </ul>
+       {% endif %}
+       {% endwith %}
+    </form>
+    <br>
+    <!--BUTTON: BACK TO CONTROLS ('/') -->
+    <a href="/2/" class="btn btn-primary btn-sm" role="button">View_Sched</a><br><br>
+     <!--BUTTON: BACK TO CONTROLS ('/') -->
+   <a href="/" class="btn btn-primary btn-sm" role="button">Controls</a><br>
+   <div id="CLOCK"></div>
+   </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,1240 @@
+Sat, 05 Oct 2019 13:48:38 - That's all folks.  Goodbye in __main__.
+Sat, 05 Oct 2019 13:51:03 - Probe 1 temp logged. in __main__.
+Sat, 05 Oct 2019 13:51:03 - Probe 2 temp logged. in __main__.
+Sat, 05 Oct 2019 13:51:03 - Bottom of try in __main__.
+Sat, 05 Oct 2019 13:55:17 - Probe 1 temp logged. in __main__.
+Sat, 05 Oct 2019 13:55:17 - Probe 2 temp logged. in __main__.
+Sat, 05 Oct 2019 13:55:17 - Bottom of try in __main__.
+Sat, 05 Oct 2019 13:55:43 - Probe 1 temp logged. in __main__.
+Sat, 05 Oct 2019 13:55:43 - Probe 2 temp logged. in __main__.
+Sat, 05 Oct 2019 13:55:43 - Bottom of try in __main__.
+[root]:INFO: Debugging output enabled. - 10/05/19 13:56:58
+[__main__]:DEBUG: Top of try. - 10/05/19 13:56:58
+[__main__]:DEBUG: Started the main() function. - 10/05/19 13:56:58
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 13:56:58
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 13:56:58
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 13:56:58
+[__main__]:DEBUG: Finished the tempS() function. - 10/05/19 13:56:58
+[__main__]:DEBUG: Finished the Main() function. - 10/05/19 13:56:58
+[__main__]:INFO: Bottom of try. - 10/05/19 13:56:58
+[root]:INFO: Debugging output enabled. - 10/05/19 15:38:50
+[__main__]:DEBUG: Top of try. - 10/05/19 15:38:50
+[__main__]:DEBUG: Started the main() function. - 10/05/19 15:38:50
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 15:38:50
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 15:38:50
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 15:38:50
+[__main__]:DEBUG: Finished the tempS() function. - 10/05/19 15:38:50
+[__main__]:DEBUG: Finished the Main() function. - 10/05/19 15:38:50
+[__main__]:INFO: Bottom of try. - 10/05/19 15:38:50
+[root]:INFO: Debugging output enabled. - 10/05/19 15:44:58
+[__main__]:DEBUG: Top of try. - 10/05/19 15:44:58
+[__main__]:DEBUG: Started the main() function. - 10/05/19 15:44:58
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 15:44:58
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 15:44:58
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 15:44:58
+[__main__]:DEBUG: Finished the tempLogfunction. - 10/05/19 15:44:58
+[__main__]:DEBUG: Finished the Main() function. - 10/05/19 15:44:58
+[__main__]:INFO: Bottom of try. - 10/05/19 15:44:58
+[root]:INFO: Debugging output enabled. - 10/05/19 15:45:47
+[__main__]:DEBUG: Top of try. - 10/05/19 15:45:47
+[__main__]:DEBUG: Started the main() function. - 10/05/19 15:45:47
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 15:45:47
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 15:45:47
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 15:45:47
+[__main__]:DEBUG: Finished the tempLog function. - 10/05/19 15:45:47
+[__main__]:DEBUG: Finished the main function. - 10/05/19 15:45:47
+[__main__]:INFO: Bottom of try. - 10/05/19 15:45:47
+[root]:INFO: Debugging output enabled. - 10/05/19 17:22:33
+[__main__]:DEBUG: Top of try. - 10/05/19 17:22:33
+[__main__]:DEBUG: Started the main() function. - 10/05/19 17:22:33
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 17:22:33
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 17:22:33
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 17:22:33
+[__main__]:DEBUG: Finished the tempLog function. - 10/05/19 17:22:33
+[__main__]:DEBUG: Finished the main function. - 10/05/19 17:22:33
+[__main__]:INFO: Bottom of try. - 10/05/19 17:22:33
+[root]:INFO: Debugging output enabled. - 10/05/19 17:22:38
+[__main__]:DEBUG: Top of try. - 10/05/19 17:22:38
+[__main__]:DEBUG: Started the main() function. - 10/05/19 17:22:38
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 17:22:38
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 17:22:38
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 17:22:38
+[__main__]:DEBUG: Finished the tempLog function. - 10/05/19 17:22:38
+[__main__]:DEBUG: Finished the main function. - 10/05/19 17:22:38
+[__main__]:INFO: Bottom of try. - 10/05/19 17:22:38
+[root]:INFO: Debugging output enabled. - 10/05/19 17:26:29
+[__main__]:DEBUG: Top of try. - 10/05/19 17:26:29
+[__main__]:DEBUG: Started the main() function. - 10/05/19 17:26:29
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 17:26:29
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 17:26:29
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 17:26:29
+[__main__]:DEBUG: Finished the tempLog function. - 10/05/19 17:26:29
+[__main__]:INFO: That's all folks.  Goodbye. - 10/05/19 17:26:30
+[root]:INFO: Debugging output enabled. - 10/05/19 17:28:42
+[__main__]:DEBUG: Top of try. - 10/05/19 17:28:42
+[__main__]:DEBUG: Started the main() function. - 10/05/19 17:28:42
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 17:28:42
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 17:28:42
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 17:28:42
+[__main__]:DEBUG: Finished the tempLog function. - 10/05/19 17:28:42
+[__main__]:INFO: That's all folks.  Goodbye. - 10/05/19 17:28:42
+[root]:INFO: Debugging output enabled. - 10/05/19 18:27:02
+[__main__]:DEBUG: Top of try. - 10/05/19 18:27:02
+[__main__]:DEBUG: Started the main() function. - 10/05/19 18:27:02
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 18:27:02
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 18:27:02
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 18:27:02
+[__main__]:DEBUG: Finished the tempLog function. - 10/05/19 18:27:02
+[__main__]:INFO: That's all folks.  Goodbye. - 10/05/19 18:27:02
+[root]:INFO: Debugging output enabled. - 10/05/19 18:32:48
+[__main__]:DEBUG: Top of try. - 10/05/19 18:32:48
+[__main__]:DEBUG: Started the main() function. - 10/05/19 18:32:48
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 18:32:48
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 18:32:48
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 18:32:48
+[__main__]:DEBUG: Finished the tempLog function. - 10/05/19 18:32:48
+[__main__]:INFO: That's all folks.  Goodbye. - 10/05/19 18:32:48
+[root]:INFO: Debugging output enabled. - 10/05/19 18:33:56
+[__main__]:DEBUG: Top of try. - 10/05/19 18:33:56
+[__main__]:DEBUG: Started the main() function. - 10/05/19 18:33:56
+[__main__]:DEBUG: Started msgS() function. - 10/05/19 18:33:56
+[__main__]:INFO: Probe 1 temp logged.. - 10/05/19 18:33:56
+[__main__]:INFO: Probe 2 temp logged.. - 10/05/19 18:33:56
+[__main__]:DEBUG: Finished the tempLog function. - 10/05/19 18:33:56
+[__main__]:DEBUG: Finished the mydb function. - 10/05/19 18:33:56
+[__main__]:INFO: That's all folks.  Goodbye. - 10/05/19 18:33:56
+[root]:INFO: Debugging output enabled. - 10/06/19 07:55:34
+[__main__]:DEBUG: Top of try. - 10/06/19 07:55:34
+[__main__]:DEBUG: Started the main() function. - 10/06/19 07:55:34
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 07:55:34
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 07:55:34
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 07:55:34
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 07:55:34
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 07:55:34
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 07:55:34
+[root]:INFO: Debugging output enabled. - 10/06/19 07:56:06
+[__main__]:DEBUG: Top of try. - 10/06/19 07:56:06
+[__main__]:DEBUG: Started the main() function. - 10/06/19 07:56:06
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 07:56:06
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 07:56:06
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 07:56:06
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 07:56:06
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 07:56:06
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 07:56:06
+[root]:INFO: Debugging output enabled. - 10/06/19 08:01:32
+[__main__]:DEBUG: Top of try. - 10/06/19 08:01:32
+[__main__]:DEBUG: Started the main() function. - 10/06/19 08:01:32
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 08:01:32
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 08:01:32
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 08:01:32
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 08:01:32
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 08:01:32
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 08:01:32
+[root]:INFO: Debugging output enabled. - 10/06/19 08:50:55
+[__main__]:DEBUG: Top of try. - 10/06/19 08:50:56
+[__main__]:DEBUG: Started the main() function. - 10/06/19 08:50:56
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 08:50:56
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 08:50:56
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 08:50:56
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 08:50:56
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 08:50:56
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 08:50:56
+[root]:INFO: Debugging output enabled. - 10/06/19 15:17:22
+[__main__]:DEBUG: Top of try. - 10/06/19 15:17:22
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:17:22
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:17:22
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:17:22
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:17:22
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:17:22
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:17:22
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:17:22
+[root]:INFO: Debugging output enabled. - 10/06/19 15:20:42
+[__main__]:DEBUG: Top of try. - 10/06/19 15:20:42
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:20:42
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:20:44
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:20:44
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:20:44
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:20:44
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:20:44
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:20:44
+[root]:INFO: Debugging output enabled. - 10/06/19 15:22:04
+[__main__]:DEBUG: Top of try. - 10/06/19 15:22:04
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:22:04
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:22:06
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:22:06
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:22:06
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:22:06
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:22:06
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:22:06
+[root]:INFO: Debugging output enabled. - 10/06/19 15:24:39
+[__main__]:DEBUG: Top of try. - 10/06/19 15:24:39
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:24:39
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:24:41
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:24:41
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:24:41
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:24:41
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:24:41
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:24:41
+[root]:INFO: Debugging output enabled. - 10/06/19 15:24:54
+[__main__]:DEBUG: Top of try. - 10/06/19 15:24:54
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:24:54
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:24:56
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:24:56
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:24:56
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:24:56
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:24:56
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:24:56
+[root]:INFO: Debugging output enabled. - 10/06/19 15:25:47
+[__main__]:DEBUG: Top of try. - 10/06/19 15:25:47
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:25:47
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:25:48
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:25:48
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:25:48
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:25:48
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:25:48
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:25:48
+[root]:INFO: Debugging output enabled. - 10/06/19 15:26:54
+[__main__]:DEBUG: Top of try. - 10/06/19 15:26:54
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:26:54
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:26:56
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:26:56
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:26:56
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:26:56
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:26:56
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:26:56
+[root]:INFO: Debugging output enabled. - 10/06/19 15:29:54
+[__main__]:DEBUG: Top of try. - 10/06/19 15:29:54
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:29:54
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:29:55
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:29:55
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:29:55
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:29:55
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:29:56
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:29:56
+[root]:INFO: Debugging output enabled. - 10/06/19 15:30:39
+[__main__]:DEBUG: Top of try. - 10/06/19 15:30:39
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:30:39
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:30:41
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:30:41
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:30:41
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:30:41
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:30:41
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:30:41
+[root]:INFO: Debugging output enabled. - 10/06/19 15:31:17
+[__main__]:DEBUG: Top of try. - 10/06/19 15:31:17
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:31:17
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:31:19
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:31:19
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:31:19
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:31:19
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:31:19
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:31:19
+[root]:INFO: Debugging output enabled. - 10/06/19 15:32:07
+[__main__]:DEBUG: Top of try. - 10/06/19 15:32:07
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:32:07
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:32:08
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:32:08
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:32:08
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:32:08
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:32:08
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:32:08
+[root]:INFO: Debugging output enabled. - 10/06/19 15:32:31
+[__main__]:DEBUG: Top of try. - 10/06/19 15:32:31
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:32:31
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:32:33
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:32:33
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:32:33
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:32:33
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:32:33
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:32:33
+[root]:INFO: Debugging output enabled. - 10/06/19 15:34:30
+[__main__]:DEBUG: Top of try. - 10/06/19 15:34:30
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:34:30
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:34:32
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:34:32
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:34:32
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:34:32
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:34:32
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:34:32
+[root]:INFO: Debugging output enabled. - 10/06/19 15:34:36
+[__main__]:DEBUG: Top of try. - 10/06/19 15:34:36
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:34:36
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:34:38
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:34:38
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:34:38
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:34:38
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:34:38
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:34:38
+[root]:INFO: Debugging output enabled. - 10/06/19 15:34:48
+[__main__]:DEBUG: Top of try. - 10/06/19 15:34:48
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:34:48
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:34:50
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:34:50
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:34:50
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:34:50
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:34:50
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:34:50
+[root]:INFO: Debugging output enabled. - 10/06/19 15:34:57
+[__main__]:DEBUG: Top of try. - 10/06/19 15:34:57
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:34:57
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:34:59
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:34:59
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:34:59
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:34:59
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:34:59
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:34:59
+[root]:INFO: Debugging output enabled. - 10/06/19 15:35:30
+[__main__]:DEBUG: Top of try. - 10/06/19 15:35:30
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:35:30
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:35:31
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:35:31
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:35:31
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:35:31
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:35:32
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:35:32
+[root]:INFO: Debugging output enabled. - 10/06/19 15:35:35
+[__main__]:DEBUG: Top of try. - 10/06/19 15:35:35
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:35:35
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:35:36
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:35:36
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:35:36
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:35:36
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:35:36
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:35:36
+[root]:INFO: Debugging output enabled. - 10/06/19 15:35:43
+[__main__]:DEBUG: Top of try. - 10/06/19 15:35:43
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:35:43
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:35:44
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:35:44
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:35:44
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:35:44
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:35:44
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:35:44
+[root]:INFO: Debugging output enabled. - 10/06/19 15:35:48
+[__main__]:DEBUG: Top of try. - 10/06/19 15:35:48
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:35:48
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:35:50
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:35:50
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:35:50
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:35:50
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:35:50
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:35:50
+[root]:INFO: Debugging output enabled. - 10/06/19 15:41:33
+[__main__]:DEBUG: Top of try. - 10/06/19 15:41:33
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:41:33
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:41:34
+[root]:INFO: Debugging output enabled. - 10/06/19 15:42:46
+[__main__]:DEBUG: Top of try. - 10/06/19 15:42:46
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:42:46
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:42:47
+[root]:INFO: Debugging output enabled. - 10/06/19 15:51:49
+[__main__]:DEBUG: Top of try. - 10/06/19 15:51:49
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:51:49
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:51:50
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:51:50
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:51:50
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:51:50
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:51:50
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:51:50
+[root]:INFO: Debugging output enabled. - 10/06/19 15:52:16
+[__main__]:DEBUG: Top of try. - 10/06/19 15:52:16
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:52:16
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:52:18
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:52:18
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:52:18
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:52:18
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:52:18
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:52:18
+[root]:INFO: Debugging output enabled. - 10/06/19 15:52:27
+[__main__]:DEBUG: Top of try. - 10/06/19 15:52:27
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:52:27
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:52:29
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:52:29
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:52:29
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:52:29
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:52:29
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:52:29
+[root]:INFO: Debugging output enabled. - 10/06/19 15:52:37
+[__main__]:DEBUG: Top of try. - 10/06/19 15:52:37
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:52:37
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:52:39
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:52:39
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:52:39
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:52:39
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:52:39
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:52:39
+[root]:INFO: Debugging output enabled. - 10/06/19 15:52:42
+[__main__]:DEBUG: Top of try. - 10/06/19 15:52:42
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:52:42
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:52:44
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:52:44
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:52:44
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:52:44
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:52:44
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:52:44
+[root]:INFO: Debugging output enabled. - 10/06/19 15:52:48
+[__main__]:DEBUG: Top of try. - 10/06/19 15:52:48
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:52:48
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:52:50
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:52:50
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:52:50
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:52:50
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:52:50
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:52:50
+[root]:INFO: Debugging output enabled. - 10/06/19 15:52:55
+[__main__]:DEBUG: Top of try. - 10/06/19 15:52:55
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:52:55
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:52:56
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:52:56
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:52:56
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:52:56
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:52:56
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:52:56
+[root]:INFO: Debugging output enabled. - 10/06/19 15:53:01
+[__main__]:DEBUG: Top of try. - 10/06/19 15:53:01
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:53:01
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:53:03
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:53:03
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:53:03
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:53:03
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:53:03
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:53:03
+[root]:INFO: Debugging output enabled. - 10/06/19 15:54:09
+[__main__]:DEBUG: Top of try. - 10/06/19 15:54:09
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:54:09
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:54:10
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:54:10
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:54:10
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:54:10
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:54:10
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:54:10
+[root]:INFO: Debugging output enabled. - 10/06/19 15:54:48
+[__main__]:DEBUG: Top of try. - 10/06/19 15:54:48
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:54:48
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:54:50
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:54:50
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:54:50
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:54:50
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:54:50
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:54:50
+[root]:INFO: Debugging output enabled. - 10/06/19 15:55:15
+[__main__]:DEBUG: Top of try. - 10/06/19 15:55:15
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:55:15
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:55:16
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:55:16
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:55:16
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:55:16
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:55:16
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:55:16
+[root]:INFO: Debugging output enabled. - 10/06/19 15:58:13
+[__main__]:DEBUG: Top of try. - 10/06/19 15:58:13
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:58:13
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:58:15
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:58:15
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:58:15
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:58:15
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:58:15
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:58:15
+[root]:INFO: Debugging output enabled. - 10/06/19 15:59:25
+[__main__]:DEBUG: Top of try. - 10/06/19 15:59:25
+[__main__]:DEBUG: Started the main() function. - 10/06/19 15:59:25
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 15:59:27
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 15:59:27
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 15:59:27
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 15:59:27
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 15:59:27
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 15:59:27
+[root]:INFO: Debugging output enabled. - 10/06/19 16:01:23
+[__main__]:DEBUG: Top of try. - 10/06/19 16:01:23
+[__main__]:DEBUG: Started the main() function. - 10/06/19 16:01:23
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 16:01:25
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 16:01:25
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 16:01:25
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 16:01:25
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 16:01:25
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 16:01:25
+[root]:INFO: Debugging output enabled. - 10/06/19 16:01:31
+[__main__]:DEBUG: Top of try. - 10/06/19 16:01:31
+[__main__]:DEBUG: Started the main() function. - 10/06/19 16:01:31
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 16:01:33
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 16:01:33
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 16:01:33
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 16:01:33
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 16:01:33
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 16:01:33
+[root]:INFO: Debugging output enabled. - 10/06/19 16:11:29
+[__main__]:DEBUG: Top of try. - 10/06/19 16:11:29
+[__main__]:DEBUG: Started the main() function. - 10/06/19 16:11:29
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 16:11:31
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 16:11:31
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 16:11:31
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 16:11:31
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 16:11:31
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 16:11:31
+[root]:INFO: Debugging output enabled. - 10/06/19 16:11:34
+[__main__]:DEBUG: Top of try. - 10/06/19 16:11:34
+[__main__]:DEBUG: Started the main() function. - 10/06/19 16:11:34
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 16:11:36
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 16:11:36
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 16:11:36
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 16:11:36
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 16:11:36
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 16:11:36
+[root]:INFO: Debugging output enabled. - 10/06/19 18:37:29
+[__main__]:DEBUG: Top of try. - 10/06/19 18:37:29
+[__main__]:DEBUG: Started the main() function. - 10/06/19 18:37:29
+[__main__]:DEBUG: Started msgS() function. - 10/06/19 18:37:31
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 18:37:31
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 18:37:31
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 18:37:31
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 18:37:32
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 18:37:32
+[root]:INFO: Debugging output enabled. - 10/06/19 18:39:36
+[__main__]:DEBUG: Top of try. - 10/06/19 18:39:36
+[__main__]:DEBUG: Started the main function. - 10/06/19 18:39:36
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 18:39:38
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 18:39:38
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 18:39:38
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 18:39:38
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 18:39:38
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 18:39:38
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 18:39:38
+[root]:INFO: Debugging output enabled. - 10/06/19 19:19:54
+[__main__]:DEBUG: Top of try. - 10/06/19 19:19:54
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:19:54
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:19:56
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:19:56
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:19:56
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:19:56
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:19:56
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:19:56
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:19:56
+[root]:INFO: Debugging output enabled. - 10/06/19 19:20:36
+[__main__]:DEBUG: Top of try. - 10/06/19 19:20:36
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:20:36
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:20:37
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:20:37
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:20:37
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:20:37
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:20:37
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:20:37
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:20:37
+[root]:INFO: Debugging output enabled. - 10/06/19 19:21:00
+[__main__]:DEBUG: Top of try. - 10/06/19 19:21:00
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:21:00
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:21:02
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:21:02
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:21:02
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:21:02
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:21:02
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:21:02
+[__main__]:DEBUG: Finished the main function. - 10/06/19 19:21:02
+[__main__]:INFO: Bottom of try. - 10/06/19 19:21:02
+[root]:INFO: Debugging output enabled. - 10/06/19 19:24:40
+[__main__]:DEBUG: Top of try. - 10/06/19 19:24:40
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:24:40
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:24:42
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:24:42
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:24:42
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:24:42
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:24:42
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:24:42
+[__main__]:DEBUG: Finished the main function. - 10/06/19 19:24:42
+[__main__]:INFO: Bottom of try. - 10/06/19 19:24:42
+[root]:INFO: Debugging output enabled. - 10/06/19 19:26:16
+[__main__]:DEBUG: Top of try. - 10/06/19 19:26:16
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:26:16
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:26:17
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:26:17
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:26:17
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:26:17
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:26:17
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:26:17
+[__main__]:DEBUG: Finished the main function. - 10/06/19 19:26:17
+[__main__]:INFO: Bottom of try. - 10/06/19 19:26:17
+[root]:INFO: Debugging output enabled. - 10/06/19 19:27:15
+[__main__]:DEBUG: Top of try. - 10/06/19 19:27:15
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:27:15
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:27:15
+[root]:INFO: Debugging output enabled. - 10/06/19 19:27:55
+[__main__]:DEBUG: Top of try. - 10/06/19 19:27:55
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:27:55
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:27:55
+[root]:INFO: Debugging output enabled. - 10/06/19 19:28:16
+[__main__]:DEBUG: Top of try. - 10/06/19 19:28:16
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:28:16
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:28:16
+[root]:INFO: Debugging output enabled. - 10/06/19 19:28:25
+[__main__]:DEBUG: Top of try. - 10/06/19 19:28:25
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:28:25
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:28:27
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:28:27
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:28:27
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:28:27
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:28:27
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:28:27
+[__main__]:DEBUG: Finished the main function. - 10/06/19 19:28:27
+[__main__]:INFO: Bottom of try. - 10/06/19 19:28:27
+[root]:INFO: Debugging output enabled. - 10/06/19 19:30:27
+[__main__]:DEBUG: Top of try. - 10/06/19 19:30:27
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:30:27
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:30:29
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:30:29
+[root]:INFO: Debugging output enabled. - 10/06/19 19:30:59
+[__main__]:DEBUG: Top of try. - 10/06/19 19:30:59
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:30:59
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:31:01
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:31:01
+[root]:INFO: Debugging output enabled. - 10/06/19 19:32:48
+[__main__]:DEBUG: Top of try. - 10/06/19 19:32:48
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:32:48
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:32:50
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:32:50
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:32:50
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:32:50
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:32:50
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:32:50
+[__main__]:DEBUG: Finished the main function. - 10/06/19 19:32:50
+[__main__]:INFO: Bottom of try. - 10/06/19 19:32:50
+[root]:INFO: Debugging output enabled. - 10/06/19 19:34:49
+[__main__]:DEBUG: Top of try. - 10/06/19 19:34:49
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:34:49
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:34:51
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:34:51
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:34:51
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:34:51
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:34:51
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:34:51
+[__main__]:DEBUG: Finished the main function. - 10/06/19 19:34:51
+[__main__]:INFO: Bottom of try. - 10/06/19 19:34:51
+[root]:INFO: Debugging output enabled. - 10/06/19 19:51:13
+[__main__]:DEBUG: Top of try. - 10/06/19 19:51:13
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:51:13
+[poolGetSensors]:DEBUG: CPU: 43.5°C (110.30°F)
+. - 10/06/19 19:51:15
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:51:15
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:51:15
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:51:15
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:51:15
+[root]:INFO: Debugging output enabled. - 10/06/19 19:51:28
+[__main__]:DEBUG: Top of try. - 10/06/19 19:51:28
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:51:28
+[poolGetSensors]:DEBUG: CPU: 53.7°C (128.66°F)
+. - 10/06/19 19:51:30
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:51:30
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:51:30
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:51:30
+[__main__]:INFO: That's all folks.  Goodbye. - 10/06/19 19:51:30
+[root]:INFO: Debugging output enabled. - 10/06/19 19:54:49
+[__main__]:DEBUG: Top of try. - 10/06/19 19:54:49
+[__main__]:DEBUG: Started the main function. - 10/06/19 19:54:49
+[__main__]:DEBUG: Started the mydb function. - 10/06/19 19:54:51
+[__main__]:DEBUG: Finished the mydb function. - 10/06/19 19:54:51
+[__main__]:DEBUG: Started the tempLog function. - 10/06/19 19:54:51
+[__main__]:INFO: Probe 1 temp logged.. - 10/06/19 19:54:51
+[__main__]:INFO: Probe 2 temp logged.. - 10/06/19 19:54:51
+[__main__]:DEBUG: Finished the tempLog function. - 10/06/19 19:54:51
+[__main__]:DEBUG: Finished the main function. - 10/06/19 19:54:51
+[__main__]:INFO: Bottom of try. - 10/06/19 19:54:51
+Mon, 07 Oct 2019 18:20:25 - That's all folks.  Goodbye in __main__.
+Mon, 07 Oct 2019 18:21:54 - That's all folks.  Goodbye in __main__.
+Mon, 07 Oct 2019 18:23:35 - CPU temp logged. in __main__.
+Mon, 07 Oct 2019 18:23:35 - Probe 1 temp logged. in __main__.
+Mon, 07 Oct 2019 18:23:35 - Probe 2 temp logged. in __main__.
+Mon, 07 Oct 2019 18:23:35 - Bottom of try in __main__.
+Mon, 07 Oct 2019 19:00:32 - CPU temp logged. in __main__.
+Mon, 07 Oct 2019 19:00:32 - Probe 1 temp logged. in __main__.
+Mon, 07 Oct 2019 19:00:32 - Probe 2 temp logged. in __main__.
+Mon, 07 Oct 2019 19:00:32 - Bottom of try in __main__.
+Mon, 07 Oct 2019 19:03:56 - That's all folks.  Goodbye in __main__.
+Mon, 07 Oct 2019 19:05:01 - CPU temp logged. in __main__.
+Mon, 07 Oct 2019 19:05:01 - Probe 1 temp logged. in __main__.
+Mon, 07 Oct 2019 19:05:01 - Probe 2 temp logged. in __main__.
+Mon, 07 Oct 2019 19:05:01 - Bottom of try in __main__.
+Mon, 07 Oct 2019 19:05:45 - CPU temp logged. in __main__.
+Mon, 07 Oct 2019 19:05:45 - Probe 1 temp logged. in __main__.
+Mon, 07 Oct 2019 19:05:45 - Probe 2 temp logged. in __main__.
+Mon, 07 Oct 2019 19:05:45 - Bottom of try in __main__.
+Tue, 08 Oct 2019 15:41:00 - That's all folks.  Goodbye in __main__.
+Tue, 08 Oct 2019 15:43:31 - That's all folks.  Goodbye in __main__.
+Tue, 08 Oct 2019 15:45:26 - That's all folks.  Goodbye in __main__.
+Tue, 08 Oct 2019 15:46:56 - That's all folks.  Goodbye in __main__.
+[root]:INFO: Debugging output enabled. - 10/08/19 15:49:01
+[__main__]:DEBUG: Top of try. - 10/08/19 15:49:01
+[__main__]:DEBUG: Started the main function. - 10/08/19 15:49:01
+[poolGetSensors]:DEBUG: CPU: 45.1C (113.18F). - 10/08/19 15:49:03
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 15:49:03
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 15:49:03
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 15:49:03
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 15:49:03
+[root]:INFO: Debugging output enabled. - 10/08/19 15:52:09
+[__main__]:DEBUG: Top of try. - 10/08/19 15:52:09
+[__main__]:DEBUG: Started the main function. - 10/08/19 15:52:09
+[poolGetSensors]:DEBUG: CPU: 45.1C (113.18F). - 10/08/19 15:52:11
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 15:52:11
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 15:52:11
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 15:52:11
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 15:52:11
+[root]:INFO: Debugging output enabled. - 10/08/19 15:53:49
+[__main__]:DEBUG: Top of try. - 10/08/19 15:53:49
+[__main__]:DEBUG: Started the main function. - 10/08/19 15:53:49
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 15:53:49
+[root]:INFO: Debugging output enabled. - 10/08/19 15:54:40
+[__main__]:DEBUG: Top of try. - 10/08/19 15:54:40
+[__main__]:DEBUG: Started the main function. - 10/08/19 15:54:40
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 15:54:41
+[root]:INFO: Debugging output enabled. - 10/08/19 15:55:22
+[__main__]:DEBUG: Top of try. - 10/08/19 15:55:22
+[__main__]:DEBUG: Started the main function. - 10/08/19 15:55:22
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 15:55:23
+[root]:INFO: Debugging output enabled. - 10/08/19 15:56:12
+[__main__]:DEBUG: Top of try. - 10/08/19 15:56:12
+[__main__]:DEBUG: Started the main function. - 10/08/19 15:56:12
+[poolGetSensors]:DEBUG: CPU: 52.6C (126.68F). - 10/08/19 15:56:14
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 15:56:14
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 15:56:14
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 15:56:14
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 15:56:14
+[root]:INFO: Debugging output enabled. - 10/08/19 16:01:47
+[__main__]:DEBUG: Top of try. - 10/08/19 16:01:47
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:01:47
+[poolGetSensors]:DEBUG: CPU: 49.4C (120.92F). - 10/08/19 16:01:49
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:01:49
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 16:01:49
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 16:01:49
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:01:49
+[root]:INFO: Debugging output enabled. - 10/08/19 16:02:11
+[__main__]:DEBUG: Top of try. - 10/08/19 16:02:11
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:02:11
+[poolGetSensors]:DEBUG: CPU: 52.6C (126.68F). - 10/08/19 16:02:13
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:02:13
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 16:02:13
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 16:02:13
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:02:13
+[root]:INFO: Debugging output enabled. - 10/08/19 16:05:34
+[__main__]:DEBUG: Top of try. - 10/08/19 16:05:34
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:05:34
+[poolGetSensors]:DEBUG: CPU: 48.3C (118.94F). - 10/08/19 16:05:35
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:05:35
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 16:05:35
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 16:05:35
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:05:35
+[root]:INFO: Debugging output enabled. - 10/08/19 16:06:34
+[__main__]:DEBUG: Top of try. - 10/08/19 16:06:34
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:06:34
+[poolGetSensors]:DEBUG: CPU: 52.1C (125.78F). - 10/08/19 16:06:36
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:06:36
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 16:06:36
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 16:06:36
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:06:36
+[root]:INFO: Debugging output enabled. - 10/08/19 16:07:37
+[__main__]:DEBUG: Top of try. - 10/08/19 16:07:37
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:07:37
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 16:07:39
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:07:39
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 16:07:39
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:07:39
+[root]:INFO: Debugging output enabled. - 10/08/19 16:09:14
+[__main__]:DEBUG: Top of try. - 10/08/19 16:09:14
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:09:14
+[poolGetSensors]:DEBUG: CPU: 52.1C (125.78F). - 10/08/19 16:09:16
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:09:16
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 16:09:16
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 16:09:16
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:09:16
+[root]:INFO: Debugging output enabled. - 10/08/19 16:10:33
+[__main__]:DEBUG: Top of try. - 10/08/19 16:10:33
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:10:33
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 16:10:35
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:10:35
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 16:10:35
+[__main__]:DEBUG: Started the tempLog function. - 10/08/19 16:10:35
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:10:35
+[root]:INFO: Debugging output enabled. - 10/08/19 16:11:39
+[__main__]:DEBUG: Top of try. - 10/08/19 16:11:39
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:11:39
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 16:11:41
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:11:41
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:11:42
+[root]:INFO: Debugging output enabled. - 10/08/19 16:13:47
+[__main__]:DEBUG: Top of try. - 10/08/19 16:13:47
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:13:47
+[poolGetSensors]:DEBUG: CPU: 49.9C (121.82F). - 10/08/19 16:13:49
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:13:49
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:13:49
+[root]:INFO: Debugging output enabled. - 10/08/19 16:14:23
+[__main__]:DEBUG: Top of try. - 10/08/19 16:14:23
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:14:23
+[poolGetSensors]:DEBUG: CPU: 51.0C (123.80F). - 10/08/19 16:14:25
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:14:25
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:14:25
+[root]:INFO: Debugging output enabled. - 10/08/19 16:26:36
+[__main__]:DEBUG: Top of try. - 10/08/19 16:26:36
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:26:36
+[poolGetSensors]:DEBUG: CPU: 48.9C (120.02F). - 10/08/19 16:26:38
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:26:38
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:26:38
+[root]:INFO: Debugging output enabled. - 10/08/19 16:28:38
+[__main__]:DEBUG: Top of try. - 10/08/19 16:28:38
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:28:38
+[poolGetSensors]:DEBUG: CPU: 49.4C (120.92F). - 10/08/19 16:28:39
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:28:39
+[root]:INFO: Debugging output enabled. - 10/08/19 16:29:19
+[__main__]:DEBUG: Top of try. - 10/08/19 16:29:19
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:29:19
+[poolGetSensors]:DEBUG: CPU: 51.0C (123.80F). - 10/08/19 16:29:21
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:29:21
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:29:21
+[root]:INFO: Debugging output enabled. - 10/08/19 16:32:21
+[__main__]:DEBUG: Top of try. - 10/08/19 16:32:21
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:32:21
+[poolGetSensors]:DEBUG: CPU: 50.5C (122.90F). - 10/08/19 16:32:23
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:32:23
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:32:23
+[root]:INFO: Debugging output enabled. - 10/08/19 16:33:04
+[__main__]:DEBUG: Top of try. - 10/08/19 16:33:04
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:33:04
+[poolGetSensors]:DEBUG: CPU: 51.0C (123.80F). - 10/08/19 16:33:06
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:33:06
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:33:06
+[root]:INFO: Debugging output enabled. - 10/08/19 16:33:35
+[__main__]:DEBUG: Top of try. - 10/08/19 16:33:35
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:33:35
+[poolGetSensors]:DEBUG: CPU: 52.1C (125.78F). - 10/08/19 16:33:37
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:33:37
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:33:37
+[root]:INFO: Debugging output enabled. - 10/08/19 16:33:53
+[__main__]:DEBUG: Top of try. - 10/08/19 16:33:53
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:33:53
+[poolGetSensors]:DEBUG: CPU: 53.7C (128.66F). - 10/08/19 16:33:55
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:33:55
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:33:55
+[root]:INFO: Debugging output enabled. - 10/08/19 16:36:19
+[__main__]:DEBUG: Top of try. - 10/08/19 16:36:19
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:36:19
+[poolGetSensors]:DEBUG: CPU: 49.9C (121.82F). - 10/08/19 16:36:21
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:36:21
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:36:21
+[root]:INFO: Debugging output enabled. - 10/08/19 16:48:00
+[__main__]:DEBUG: Top of try. - 10/08/19 16:48:00
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:48:00
+[poolGetSensors]:DEBUG: CPU: 49.9C (121.82F). - 10/08/19 16:48:02
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:48:02
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:48:02
+[root]:INFO: Debugging output enabled. - 10/08/19 16:51:52
+[__main__]:DEBUG: Top of try. - 10/08/19 16:51:52
+[__main__]:DEBUG: Started the main function. - 10/08/19 16:51:52
+[poolGetSensors]:DEBUG: CPU: 45.1C (113.18F). - 10/08/19 16:51:54
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 16:51:54
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 16:51:54
+Tue, 08 Oct 2019 17:01:12 - That's all folks.  Goodbye in __main__.
+Tue, 08 Oct 2019 17:01:42 - That's all folks.  Goodbye in __main__.
+Tue, 08 Oct 2019 17:02:54 - That's all folks.  Goodbye in __main__.
+Tue, 08 Oct 2019 17:03:20 - That's all folks.  Goodbye in __main__.
+Tue, 08 Oct 2019 17:49:32 - That's all folks.  Goodbye in __main__.
+[root]:INFO: Debugging output enabled. - 10/08/19 17:50:08
+[__main__]:DEBUG: Top of try. - 10/08/19 17:50:08
+[__main__]:DEBUG: Started the main function. - 10/08/19 17:50:08
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 17:50:08
+[root]:INFO: Debugging output enabled. - 10/08/19 17:53:18
+[__main__]:DEBUG: Top of try. - 10/08/19 17:53:18
+[__main__]:DEBUG: Started the main function. - 10/08/19 17:53:18
+[root]:INFO: Debugging output enabled. - 10/08/19 18:02:48
+[__main__]:DEBUG: Top of try. - 10/08/19 18:02:48
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:02:48
+[root]:INFO: Debugging output enabled. - 10/08/19 18:03:15
+[__main__]:DEBUG: Top of try. - 10/08/19 18:03:15
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:03:15
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:03:15
+[__main__]:INFO: Bottom of try. - 10/08/19 18:03:15
+[root]:INFO: Debugging output enabled. - 10/08/19 18:05:00
+[__main__]:DEBUG: Top of try. - 10/08/19 18:05:00
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:05:00
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:05:00
+[__main__]:INFO: Bottom of try. - 10/08/19 18:05:00
+[root]:INFO: Debugging output enabled. - 10/08/19 18:05:45
+[__main__]:DEBUG: Top of try. - 10/08/19 18:05:45
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:05:45
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:05:45
+[__main__]:INFO: Bottom of try. - 10/08/19 18:05:45
+[root]:INFO: Debugging output enabled. - 10/08/19 18:08:04
+[__main__]:DEBUG: Top of try. - 10/08/19 18:08:04
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:08:04
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:08:04
+[__main__]:INFO: Bottom of try. - 10/08/19 18:08:04
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:08:04
+[root]:INFO: Debugging output enabled. - 10/08/19 18:10:18
+[__main__]:DEBUG: Top of try. - 10/08/19 18:10:18
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:10:18
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:10:18
+[__main__]:INFO: Bottom of try. - 10/08/19 18:10:18
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:10:18
+[root]:INFO: Debugging output enabled. - 10/08/19 18:11:37
+[__main__]:DEBUG: Top of try. - 10/08/19 18:11:37
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:11:37
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:11:37
+[root]:INFO: Debugging output enabled. - 10/08/19 18:11:55
+[__main__]:DEBUG: Top of try. - 10/08/19 18:11:55
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:11:55
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:11:55
+[root]:INFO: Debugging output enabled. - 10/08/19 18:13:51
+[__main__]:DEBUG: Top of try. - 10/08/19 18:13:51
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:13:51
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:13:51
+[__main__]:INFO: Bottom of try. - 10/08/19 18:13:51
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:13:51
+[root]:INFO: Debugging output enabled. - 10/08/19 18:17:25
+[__main__]:DEBUG: Top of try. - 10/08/19 18:17:25
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:17:25
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:17:25
+[root]:INFO: Debugging output enabled. - 10/08/19 18:18:01
+[__main__]:DEBUG: Top of try. - 10/08/19 18:18:01
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:18:01
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:18:01
+[root]:INFO: Debugging output enabled. - 10/08/19 18:20:28
+[__main__]:DEBUG: Top of try. - 10/08/19 18:20:28
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:20:28
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:20:28
+[__main__]:INFO: Bottom of try. - 10/08/19 18:20:28
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:20:28
+[root]:INFO: Debugging output enabled. - 10/08/19 18:23:24
+[__main__]:DEBUG: Top of try. - 10/08/19 18:23:24
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:23:24
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:23:24
+[__main__]:INFO: Bottom of try. - 10/08/19 18:23:24
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:23:24
+[root]:INFO: Debugging output enabled. - 10/08/19 18:32:28
+[__main__]:DEBUG: Top of try. - 10/08/19 18:32:28
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:32:28
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:32:28
+[root]:INFO: Debugging output enabled. - 10/08/19 18:34:09
+[__main__]:DEBUG: Top of try. - 10/08/19 18:34:09
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:34:09
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:34:09
+[root]:INFO: Debugging output enabled. - 10/08/19 18:34:34
+[__main__]:DEBUG: Top of try. - 10/08/19 18:34:34
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:34:34
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:34:34
+[root]:INFO: Debugging output enabled. - 10/08/19 18:35:21
+[__main__]:DEBUG: Top of try. - 10/08/19 18:35:21
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:35:21
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:35:21
+[root]:INFO: Debugging output enabled. - 10/08/19 18:35:45
+[__main__]:DEBUG: Top of try. - 10/08/19 18:35:45
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:35:45
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:35:45
+[root]:INFO: Debugging output enabled. - 10/08/19 18:38:34
+[__main__]:DEBUG: Top of try. - 10/08/19 18:38:34
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:38:34
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:38:34
+[root]:INFO: Debugging output enabled. - 10/08/19 18:38:50
+[__main__]:DEBUG: Top of try. - 10/08/19 18:38:50
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:38:50
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:38:50
+[root]:INFO: Debugging output enabled. - 10/08/19 18:39:12
+[__main__]:DEBUG: Top of try. - 10/08/19 18:39:12
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:39:12
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:39:12
+[root]:INFO: Debugging output enabled. - 10/08/19 18:40:07
+[__main__]:DEBUG: Top of try. - 10/08/19 18:40:07
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:40:07
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:40:07
+[root]:INFO: Debugging output enabled. - 10/08/19 18:40:31
+[__main__]:DEBUG: Top of try. - 10/08/19 18:40:31
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:40:31
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:40:31
+[root]:INFO: Debugging output enabled. - 10/08/19 18:41:00
+[__main__]:DEBUG: Top of try. - 10/08/19 18:41:00
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:41:00
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:41:00
+[root]:INFO: Debugging output enabled. - 10/08/19 18:42:20
+[__main__]:DEBUG: Top of try. - 10/08/19 18:42:20
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:42:20
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:42:20
+[root]:INFO: Debugging output enabled. - 10/08/19 18:43:36
+[__main__]:DEBUG: Top of try. - 10/08/19 18:43:36
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:43:36
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:43:36
+[root]:INFO: Debugging output enabled. - 10/08/19 18:44:45
+[__main__]:DEBUG: Top of try. - 10/08/19 18:44:45
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:44:45
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:44:45
+[__main__]:INFO: Bottom of try. - 10/08/19 18:44:45
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:44:45
+[root]:INFO: Debugging output enabled. - 10/08/19 18:52:59
+[__main__]:DEBUG: Top of try. - 10/08/19 18:52:59
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:52:59
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:52:59
+[root]:INFO: Debugging output enabled. - 10/08/19 18:53:11
+[__main__]:DEBUG: Top of try. - 10/08/19 18:53:11
+[__main__]:DEBUG: Started the main function. - 10/08/19 18:53:11
+[__main__]:DEBUG: Finished the main function. - 10/08/19 18:53:11
+[__main__]:INFO: Bottom of try. - 10/08/19 18:53:11
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 18:53:11
+[root]:INFO: Debugging output enabled. - 10/08/19 19:01:13
+[__main__]:DEBUG: Top of try. - 10/08/19 19:01:13
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:01:13
+[__main__]:DEBUG: Finished the main function. - 10/08/19 19:01:14
+[__main__]:INFO: Bottom of try. - 10/08/19 19:01:14
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:01:14
+[root]:INFO: Debugging output enabled. - 10/08/19 19:02:03
+[__main__]:DEBUG: Top of try. - 10/08/19 19:02:03
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:02:03
+[__main__]:DEBUG: Finished the main function. - 10/08/19 19:02:04
+[__main__]:INFO: Bottom of try. - 10/08/19 19:02:04
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:02:04
+[root]:INFO: Debugging output enabled. - 10/08/19 19:02:06
+[__main__]:DEBUG: Top of try. - 10/08/19 19:02:06
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:02:06
+[__main__]:DEBUG: Finished the main function. - 10/08/19 19:02:06
+[__main__]:INFO: Bottom of try. - 10/08/19 19:02:06
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:02:06
+[root]:INFO: Debugging output enabled. - 10/08/19 19:03:53
+[__main__]:DEBUG: Top of try. - 10/08/19 19:03:53
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:03:53
+[poolGetSensors]:DEBUG: CPU: 52.1C (125.78F). - 10/08/19 19:03:54
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:03:54
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:03:54
+[root]:INFO: Debugging output enabled. - 10/08/19 19:05:27
+[__main__]:DEBUG: Top of try. - 10/08/19 19:05:27
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:05:27
+[poolGetSensors]:DEBUG: CPU: 50.5C (122.90F). - 10/08/19 19:05:29
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:05:29
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:05:29
+[root]:INFO: Debugging output enabled. - 10/08/19 19:06:47
+[__main__]:DEBUG: Top of try. - 10/08/19 19:06:47
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:06:47
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 19:06:49
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:06:49
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:06:49
+[root]:INFO: Debugging output enabled. - 10/08/19 19:08:02
+[__main__]:DEBUG: Top of try. - 10/08/19 19:08:02
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:08:02
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 19:08:04
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:08:04
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:08:04
+[root]:INFO: Debugging output enabled. - 10/08/19 19:11:25
+[__main__]:DEBUG: Top of try. - 10/08/19 19:11:25
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:11:25
+[poolGetSensors]:DEBUG: CPU: 52.1C (125.78F). - 10/08/19 19:11:27
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:11:27
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:11:27
+[root]:INFO: Debugging output enabled. - 10/08/19 19:12:51
+[__main__]:DEBUG: Top of try. - 10/08/19 19:12:51
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:12:51
+[poolGetSensors]:DEBUG: CPU: 52.1C (125.78F). - 10/08/19 19:12:53
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:12:53
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:12:53
+[root]:INFO: Debugging output enabled. - 10/08/19 19:14:46
+[__main__]:DEBUG: Top of try. - 10/08/19 19:14:46
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:14:46
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 19:14:48
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:14:48
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:14:48
+[root]:INFO: Debugging output enabled. - 10/08/19 19:15:58
+[__main__]:DEBUG: Top of try. - 10/08/19 19:15:58
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:15:58
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 19:16:00
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:16:00
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:16:00
+[root]:INFO: Debugging output enabled. - 10/08/19 19:17:03
+[__main__]:DEBUG: Top of try. - 10/08/19 19:17:03
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:17:03
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 19:17:05
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:17:05
+[__main__]:INFO: That's all folks.  Goodbye. - 10/08/19 19:17:05
+[root]:INFO: Debugging output enabled. - 10/08/19 19:17:43
+[__main__]:DEBUG: Top of try. - 10/08/19 19:17:43
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:17:43
+[poolGetSensors]:DEBUG: CPU: 52.6C (126.68F). - 10/08/19 19:17:44
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:17:44
+[root]:INFO: Debugging output enabled. - 10/08/19 19:18:16
+[__main__]:DEBUG: Top of try. - 10/08/19 19:18:16
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:18:16
+[poolGetSensors]:DEBUG: CPU: 53.2C (127.76F). - 10/08/19 19:18:18
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:18:18
+[root]:INFO: Debugging output enabled. - 10/08/19 19:18:50
+[__main__]:DEBUG: Top of try. - 10/08/19 19:18:50
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:18:50
+[poolGetSensors]:DEBUG: CPU: 53.2C (127.76F). - 10/08/19 19:18:52
+[root]:INFO: Debugging output enabled. - 10/08/19 19:19:50
+[__main__]:DEBUG: Top of try. - 10/08/19 19:19:50
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:19:50
+[poolGetSensors]:DEBUG: CPU: 52.1C (125.78F). - 10/08/19 19:19:52
+[root]:INFO: Debugging output enabled. - 10/08/19 19:21:50
+[__main__]:DEBUG: Top of try. - 10/08/19 19:21:50
+[__main__]:DEBUG: Started the main function. - 10/08/19 19:21:50
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:21:50
+[poolGetSensors]:DEBUG: CPU: 54.2C (129.56F). - 10/08/19 19:21:52
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 19:21:52
+[root]:INFO: Debugging output enabled. - 10/08/19 19:22:31
+[__main__]:DEBUG: Top of try. - 10/08/19 19:22:31
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:22:31
+[poolGetSensors]:DEBUG: CPU: 53.7C (128.66F). - 10/08/19 19:22:33
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 19:22:33
+[__main__]:INFO: Bottom of try. - 10/08/19 19:22:33
+[root]:INFO: Debugging output enabled. - 10/08/19 19:22:48
+[__main__]:DEBUG: Top of try. - 10/08/19 19:22:48
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:22:48
+[poolGetSensors]:DEBUG: CPU: 52.6C (126.68F). - 10/08/19 19:22:50
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 19:22:51
+[__main__]:INFO: Bottom of try. - 10/08/19 19:22:51
+[root]:INFO: Debugging output enabled. - 10/08/19 19:24:59
+[__main__]:DEBUG: Top of try. - 10/08/19 19:24:59
+[__main__]:DEBUG: Started the mydb function. - 10/08/19 19:24:59
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/08/19 19:25:01
+[__main__]:DEBUG: Finished the mydb function. - 10/08/19 19:25:02
+[__main__]:INFO: Bottom of try. - 10/08/19 19:25:02
+[root]:INFO: Debugging output enabled. - 10/09/19 16:45:24
+[__main__]:DEBUG: Top of try. - 10/09/19 16:45:24
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 16:45:24
+[poolGetSensors]:DEBUG: CPU: 49.4C (120.92F). - 10/09/19 16:45:26
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 16:45:26
+[root]:INFO: Debugging output enabled. - 10/09/19 16:47:42
+[__main__]:DEBUG: Top of try. - 10/09/19 16:47:42
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 16:47:42
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/09/19 16:47:44
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 16:47:44
+[root]:INFO: Debugging output enabled. - 10/09/19 16:48:29
+[__main__]:DEBUG: Top of try. - 10/09/19 16:48:29
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 16:48:29
+[poolGetSensors]:DEBUG: CPU: 52.6C (126.68F). - 10/09/19 16:48:31
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 16:48:31
+[__main__]:INFO: Bottom of try. - 10/09/19 16:48:31
+[root]:INFO: Debugging output enabled. - 10/09/19 16:57:42
+[__main__]:DEBUG: Top of try. - 10/09/19 16:57:42
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 16:57:42
+[poolGetSensors]:DEBUG: CPU: 52.1C (125.78F). - 10/09/19 16:57:44
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 16:57:45
+[__main__]:INFO: Bottom of try. - 10/09/19 16:57:45
+[root]:INFO: Debugging output enabled. - 10/09/19 16:58:40
+[__main__]:DEBUG: Top of try. - 10/09/19 16:58:40
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 16:58:40
+[poolGetSensors]:DEBUG: CPU: 55.3C (131.54F). - 10/09/19 16:58:42
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 16:58:42
+[__main__]:INFO: Bottom of try. - 10/09/19 16:58:42
+[root]:INFO: Debugging output enabled. - 10/09/19 16:59:11
+[__main__]:DEBUG: Top of try. - 10/09/19 16:59:11
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 16:59:11
+[poolGetSensors]:DEBUG: CPU: 54.2C (129.56F). - 10/09/19 16:59:13
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 16:59:14
+[__main__]:INFO: Bottom of try. - 10/09/19 16:59:14
+[root]:INFO: Debugging output enabled. - 10/09/19 16:59:58
+[__main__]:DEBUG: Top of try. - 10/09/19 16:59:58
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 16:59:58
+[poolGetSensors]:DEBUG: CPU: 54.2C (129.56F). - 10/09/19 17:00:00
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 17:00:01
+[__main__]:INFO: Bottom of try. - 10/09/19 17:00:01
+[root]:INFO: Debugging output enabled. - 10/09/19 17:00:31
+[__main__]:DEBUG: Top of try. - 10/09/19 17:00:31
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 17:00:31
+[poolGetSensors]:DEBUG: CPU: 54.2C (129.56F). - 10/09/19 17:00:33
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 17:00:33
+[__main__]:INFO: Bottom of try. - 10/09/19 17:00:33
+[root]:INFO: Debugging output enabled. - 10/09/19 17:02:24
+[__main__]:DEBUG: Top of try. - 10/09/19 17:02:24
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 17:02:24
+[poolGetSensors]:DEBUG: CPU: 52.6C (126.68F). - 10/09/19 17:02:26
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 17:02:26
+[__main__]:INFO: Bottom of try. - 10/09/19 17:02:26
+[root]:INFO: Debugging output enabled. - 10/09/19 17:05:17
+[__main__]:DEBUG: Top of try. - 10/09/19 17:05:17
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 17:05:17
+[poolGetSensors]:DEBUG: CPU: 54.8C (130.64F). - 10/09/19 17:05:19
+[root]:INFO: Debugging output enabled. - 10/09/19 17:10:17
+[__main__]:DEBUG: Top of try. - 10/09/19 17:10:17
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 17:10:17
+[poolGetSensors]:DEBUG: CPU: 51.5C (124.70F). - 10/09/19 17:10:19
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 17:10:19
+[__main__]:INFO: Bottom of try. - 10/09/19 17:10:19
+[root]:INFO: Debugging output enabled. - 10/09/19 17:10:56
+[__main__]:DEBUG: Top of try. - 10/09/19 17:10:56
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 17:10:56
+[poolGetSensors]:DEBUG: CPU: 53.2C (127.76F). - 10/09/19 17:10:58
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 17:10:58
+[__main__]:INFO: Bottom of try. - 10/09/19 17:10:58
+[root]:INFO: Debugging output enabled. - 10/09/19 17:11:20
+[__main__]:DEBUG: Top of try. - 10/09/19 17:11:20
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 17:11:21
+[poolGetSensors]:DEBUG: CPU: 54.8C (130.64F). - 10/09/19 17:11:22
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 17:11:23
+[__main__]:INFO: Bottom of try. - 10/09/19 17:11:23
+[root]:INFO: Debugging output enabled. - 10/09/19 17:11:51
+[__main__]:DEBUG: Top of try. - 10/09/19 17:11:51
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 17:11:51
+[poolGetSensors]:DEBUG: CPU: 54.8C (130.64F). - 10/09/19 17:11:53
+[root]:INFO: Debugging output enabled. - 10/09/19 17:12:15
+[__main__]:DEBUG: Top of try. - 10/09/19 17:12:15
+[__main__]:DEBUG: Started the mydb function. - 10/09/19 17:12:15
+[poolGetSensors]:DEBUG: CPU: 56.9C (134.42F). - 10/09/19 17:12:16
+[__main__]:DEBUG: Finished the mydb function. - 10/09/19 17:12:17
+[__main__]:INFO: Bottom of try. - 10/09/19 17:12:17
+Thu, 10 Oct 2019 17:16:00 - Bottom of try in __main__.
+Thu, 10 Oct 2019 17:16:54 - Bottom of try in __main__.
+Thu, 10 Oct 2019 17:23:45 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Thu, 10 Oct 2019 17:23:45 - Shutting down gracefully in __main__.
+Thu, 10 Oct 2019 17:23:45 - Displayed .info and .debug in SignalHandler in __main__.
+Thu, 10 Oct 2019 17:23:45 - Shutdown initiated in __main__.
+Thu, 10 Oct 2019 17:34:08 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Thu, 10 Oct 2019 17:34:08 - Shutting down gracefully in __main__.
+Thu, 10 Oct 2019 17:34:08 - Displayed .info and .debug in SignalHandler in __main__.
+Thu, 10 Oct 2019 17:34:08 - Shutdown initiated in __main__.
+Thu, 10 Oct 2019 17:37:08 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Thu, 10 Oct 2019 17:37:08 - Shutting down gracefully in __main__.
+Thu, 10 Oct 2019 17:37:08 - Displayed .info and .debug in SignalHandler in __main__.
+Thu, 10 Oct 2019 17:37:08 - Shutdown initiated in __main__.
+Thu, 10 Oct 2019 17:46:01 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Thu, 10 Oct 2019 17:46:01 - Shutting down gracefully in __main__.
+Thu, 10 Oct 2019 17:46:01 - Displayed .info and .debug in SignalHandler in __main__.
+Thu, 10 Oct 2019 17:46:01 - Shutdown initiated in __main__.
+Thu, 10 Oct 2019 17:52:10 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Thu, 10 Oct 2019 17:52:10 - Shutting down gracefully in __main__.
+Thu, 10 Oct 2019 17:52:10 - Displayed .info and .debug in SignalHandler in __main__.
+Thu, 10 Oct 2019 17:52:10 - Shutdown initiated in __main__.
+Thu, 10 Oct 2019 18:22:50 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Thu, 10 Oct 2019 18:22:50 - Shutting down gracefully in __main__.
+Thu, 10 Oct 2019 18:22:50 - Displayed .info and .debug in SignalHandler in __main__.
+Thu, 10 Oct 2019 18:22:50 - Shutdown initiated in __main__.
+Thu, 10 Oct 2019 18:42:16 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Thu, 10 Oct 2019 18:42:16 - Shutting down gracefully in __main__.
+Thu, 10 Oct 2019 18:42:16 - Displayed .info and .debug in SignalHandler in __main__.
+Thu, 10 Oct 2019 18:42:16 - Shutdown initiated in __main__.
+Sun, 13 Oct 2019 10:22:27 - Bottom of try in __main__.
+Sun, 13 Oct 2019 10:22:27 - That's all folks.  Goodbye in __main__.
+Sun, 13 Oct 2019 10:28:51 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Sun, 13 Oct 2019 10:28:51 - Shutting down gracefully in __main__.
+Sun, 13 Oct 2019 10:28:51 - Displayed .info and .debug in SignalHandler in __main__.
+Sun, 13 Oct 2019 10:28:51 - Shutdown initiated in __main__.
+Sun, 13 Oct 2019 10:29:49 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Sun, 13 Oct 2019 10:29:49 - Shutting down gracefully in __main__.
+Sun, 13 Oct 2019 10:29:49 - Displayed .info and .debug in SignalHandler in __main__.
+Sun, 13 Oct 2019 10:29:49 - Shutdown initiated in __main__.
+Sun, 13 Oct 2019 10:30:21 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Sun, 13 Oct 2019 10:30:21 - Shutting down gracefully in __main__.
+Sun, 13 Oct 2019 10:30:21 - Displayed .info and .debug in SignalHandler in __main__.
+Sun, 13 Oct 2019 10:30:21 - Shutdown initiated in __main__.
+Sun, 13 Oct 2019 10:31:23 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Sun, 13 Oct 2019 10:31:23 - Shutting down gracefully in __main__.
+Sun, 13 Oct 2019 10:31:23 - Displayed .info and .debug in SignalHandler in __main__.
+Sun, 13 Oct 2019 10:31:23 - Shutdown initiated in __main__.
+Sun, 13 Oct 2019 10:32:25 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Sun, 13 Oct 2019 10:32:25 - Shutting down gracefully in __main__.
+Sun, 13 Oct 2019 10:32:25 - Displayed .info and .debug in SignalHandler in __main__.
+Sun, 13 Oct 2019 10:32:25 - Shutdown initiated in __main__.
+Sun, 13 Oct 2019 10:34:54 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = in __main__.
+Sun, 13 Oct 2019 10:34:54 - Shutting down gracefully in __main__.
+Sun, 13 Oct 2019 10:34:54 - Displayed .info and .debug in SignalHandler in __main__.
+Sun, 13 Oct 2019 10:34:54 - Shutdown initiated in __main__.

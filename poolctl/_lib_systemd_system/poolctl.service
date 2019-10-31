@@ -1,0 +1,11 @@
+[Unit]
+Description=Sanders Pool Controls
+After=network-online.target
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/greg/pipy/webserver/poolApp.py
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target

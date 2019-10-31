@@ -1,0 +1,165 @@
+[root]:INFO: Debugging output enabled. - 10/13/19 11:34:07
+[__main__]:DEBUG: Top of try. - 10/13/19 11:34:07
+[__main__]:DEBUG: Started the timer function. - 10/13/19 11:34:07
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:34:07
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:34:17
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:34:27
+[__main__]:INFO: Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =. - 10/13/19 11:34:34
+[__main__]:INFO: Shutting down gracefully. - 10/13/19 11:34:34
+[__main__]:DEBUG: This is SignalHandler. - 10/13/19 11:34:34
+[__main__]:INFO: Displayed .info and .debug in SignalHandler. - 10/13/19 11:34:34
+[__main__]:INFO: Shutdown initiated. - 10/13/19 11:34:34
+[__main__]:DEBUG: Wrote to log in SignalHandler. - 10/13/19 11:34:34
+Sun, 13 Oct 2019 11:37:13 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 11:37:13 - Shutting down gracefully.
+Sun, 13 Oct 2019 11:37:13 - Displayed .info and .debug in SignalHandler.
+Sun, 13 Oct 2019 11:37:13 - Shutdown initiated.
+[root]:INFO: Debugging output enabled. - 10/13/19 11:37:22
+[__main__]:DEBUG: Top of try. - 10/13/19 11:37:22
+[__main__]:DEBUG: Started the timer function. - 10/13/19 11:37:22
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:37:22
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:37:32
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:37:42
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:37:53
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:38:03
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:38:13
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:38:23
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:38:33
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:38:43
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:38:53
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:39:03
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:39:13
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:39:23
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:39:33
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:39:43
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:39:53
+[__main__]:INFO: Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =. - 10/13/19 11:39:59
+[__main__]:INFO: Shutting down gracefully. - 10/13/19 11:39:59
+[__main__]:DEBUG: This is SignalHandler. - 10/13/19 11:39:59
+[__main__]:INFO: Displayed .info and .debug in SignalHandler. - 10/13/19 11:39:59
+[__main__]:INFO: Shutdown initiated. - 10/13/19 11:39:59
+[__main__]:DEBUG: Wrote to log in SignalHandler. - 10/13/19 11:39:59
+[root]:INFO: Debugging output enabled. - 10/13/19 11:40:01
+[__main__]:DEBUG: Top of try. - 10/13/19 11:40:01
+[__main__]:DEBUG: Started the timer function. - 10/13/19 11:40:01
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:40:01
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:40:21
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:40:41
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:41:01
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:41:21
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:41:41
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:42:01
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:42:21
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:42:42
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:43:02
+[__main__]:INFO: Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =. - 10/13/19 11:43:02
+[__main__]:INFO: Shutting down gracefully. - 10/13/19 11:43:02
+[__main__]:DEBUG: This is SignalHandler. - 10/13/19 11:43:02
+[__main__]:INFO: Displayed .info and .debug in SignalHandler. - 10/13/19 11:43:02
+[__main__]:INFO: Shutdown initiated. - 10/13/19 11:43:02
+[__main__]:DEBUG: Wrote to log in SignalHandler. - 10/13/19 11:43:02
+[root]:INFO: Debugging output enabled. - 10/13/19 11:43:04
+[__main__]:DEBUG: Top of try. - 10/13/19 11:43:04
+[__main__]:DEBUG: Started the timer function. - 10/13/19 11:43:04
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:43:04
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:43:34
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:44:04
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:44:34
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:45:04
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:45:34
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:46:04
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:46:34
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:47:04
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:47:34
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:48:04
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:48:34
+[__main__]:DEBUG: Sent the URL to 192.168.1.10.. - 10/13/19 11:49:04
+[__main__]:INFO: Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =. - 10/13/19 11:49:07
+[__main__]:INFO: Shutting down gracefully. - 10/13/19 11:49:07
+[__main__]:DEBUG: This is SignalHandler. - 10/13/19 11:49:07
+[__main__]:INFO: Displayed .info and .debug in SignalHandler. - 10/13/19 11:49:07
+[__main__]:INFO: Shutdown initiated. - 10/13/19 11:49:07
+[__main__]:DEBUG: Wrote to log in SignalHandler. - 10/13/19 11:49:07
+[root]:INFO: Debugging output enabled. - 10/13/19 11:49:09
+[__main__]:DEBUG: Top of try. - 10/13/19 11:49:09
+[__main__]:DEBUG: Started the timer function. - 10/13/19 11:49:09
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:49:09
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:49:39
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:50:09
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:50:39
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:51:09
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:51:39
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:52:10
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:52:40
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:53:10
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:53:40
+[__main__]:DEBUG: Sent the URL to 127.0.0.1. - 10/13/19 11:54:10
+[__main__]:INFO: Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =. - 10/13/19 11:54:38
+[__main__]:INFO: Shutting down gracefully. - 10/13/19 11:54:38
+[__main__]:DEBUG: This is SignalHandler. - 10/13/19 11:54:38
+[__main__]:INFO: Displayed .info and .debug in SignalHandler. - 10/13/19 11:54:38
+[__main__]:INFO: Shutdown initiated. - 10/13/19 11:54:38
+[__main__]:DEBUG: Wrote to log in SignalHandler. - 10/13/19 11:54:38
+Sun, 13 Oct 2019 11:55:36 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 11:55:36 - Shutting down gracefully.
+Sun, 13 Oct 2019 11:55:36 - Displayed .info and .debug in SignalHandler.
+Sun, 13 Oct 2019 11:55:36 - Shutdown initiated.
+Sun, 13 Oct 2019 11:57:47 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 11:57:47 - Starting poolTimer . . .  .
+Sun, 13 Oct 2019 11:58:01 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 11:58:01 - Shutting down gracefully.
+Sun, 13 Oct 2019 11:58:01 - Displayed .info and .debug in SignalHandler.
+Sun, 13 Oct 2019 11:58:01 - Shutdown initiated.
+Sun, 13 Oct 2019 11:58:11 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 11:58:11 - Starting poolTimer . . . .
+Sun, 13 Oct 2019 11:58:56 - Cleaning up . . . 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 11:58:56 - Shutting down gracefully.
+Sun, 13 Oct 2019 11:58:56 - Displayed .info and .debug in SignalHandler.
+Sun, 13 Oct 2019 11:58:56 - Shutdown initiated.
+Sun, 13 Oct 2019 12:03:07 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 12:03:07 - Starting poolTimer . . . .
+Sun, 13 Oct 2019 12:03:31 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 12:03:31 - Starting poolTimer . . . .
+Sun, 13 Oct 2019 16:01:35 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 13 Oct 2019 16:01:35 - Starting poolTimer . . . .
+Tue, 15 Oct 2019 18:30:54 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Tue, 15 Oct 2019 18:30:54 - Starting poolTimer . . . .
+Tue, 15 Oct 2019 19:05:37 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Tue, 15 Oct 2019 19:05:37 - Starting poolTimer . . . .
+Wed, 16 Oct 2019 15:52:57 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Wed, 16 Oct 2019 15:52:57 - Starting poolTimer . . . .
+Wed, 16 Oct 2019 19:59:28 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Wed, 16 Oct 2019 19:59:28 - Starting poolTimer . . . .
+Fri, 18 Oct 2019 15:33:16 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Fri, 18 Oct 2019 15:33:16 - Starting poolTimer . . . .
+Tue, 22 Oct 2019 07:18:16 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Tue, 22 Oct 2019 07:18:16 - Starting poolTimer . . . .
+Tue, 22 Oct 2019 07:27:14 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Tue, 22 Oct 2019 07:27:14 - Starting poolTimer . . . .
+Tue, 22 Oct 2019 07:47:30 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Tue, 22 Oct 2019 07:47:30 - Starting poolTimer . . . .
+Tue, 22 Oct 2019 07:59:14 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Tue, 22 Oct 2019 07:59:14 - Starting poolTimer . . . .
+Tue, 22 Oct 2019 13:14:46 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Tue, 22 Oct 2019 13:14:46 - Starting poolTimer . . . .
+Thu, 24 Oct 2019 06:09:47 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Thu, 24 Oct 2019 06:09:47 - Starting poolTimer . . . .
+Fri, 25 Oct 2019 19:46:20 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Fri, 25 Oct 2019 19:46:20 - Starting poolTimer . . . .
+Sat, 26 Oct 2019 10:04:43 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sat, 26 Oct 2019 10:04:43 - Starting poolTimer . . . .
+Sun, 27 Oct 2019 08:39:13 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Sun, 27 Oct 2019 08:39:13 - Starting poolTimer . . . .
+Tue, 29 Oct 2019 19:11:00 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Tue, 29 Oct 2019 19:11:00 - Starting poolTimer . . . .
+Wed, 30 Oct 2019 19:33:55 - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =.
+Wed, 30 Oct 2019 19:33:55 - Starting poolTimer . . . .

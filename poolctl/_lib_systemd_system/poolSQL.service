@@ -1,0 +1,12 @@
+[Unit]
+Description=Sanders Pool Temp Logger
+After=network-online.target
+ 
+[Service]
+User=greg
+Type=simple
+ExecStart=/home/greg/pipy/webserver/poolSQL.py
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target
