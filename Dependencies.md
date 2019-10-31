@@ -8,6 +8,20 @@ flask_wtf - Python3 module.  Simple integration of Flask and WTForms, including 
 
 >```pip3 install flask_wtf```
 
-That's it!
+There are more modules that are not yet listed here.  
+I'm just now getting this up to date (10/31/19).  Check the 'import' statements for clues.
+
+For the graphing function (still under development), these are needed:
+
+matplotlib - Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats.
+
+>```sudo pip3 install matplotlib```
+
+I'm using python3 on Ubuntu 18.04.  So for some reason I need to uninstall numpy and reinstall a special version.
+
+>```sudo pip3 uninstall numpy```
+>```sudo pip3 install python3-numpy```
+
+That's what I know today.
 
 
