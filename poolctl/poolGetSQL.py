@@ -54,11 +54,17 @@ def dataGrab():
     recList1 = []
     recList2 = []
     recList3 = []
+
     for row in cursor:
         recList1.append(float("{pt1:.2f}".format(pt1=(9/5 * float(row['pt1']) + 32.00))))
         recList2.append(float("{pt2:.2f}".format(pt2=(9/5 * float(row['pt2']) + 32.00))))
-     #   recList3.append(float("{aitb:.2f}".format(aitb=(9/5 * float(row['aitb']) + 32.00))))
+
+    cursor.execute("SELECT DATE_FORMAT(dt, '%H%i') as time FROM " + DBdatabase + '.' + DBtable + " where DATE_SUB(CURDATE(), INTERVAL 1 DAY) <= dt")
+
+    for row in cursor:    
+        recList3.append(str(row['time']))
     recNum = cursor.rowcount
+    logger.info('There are ' + str(recNum) + ' records here.')
     cursor.close()
     mydb.close()
     return recList1, recList2, recNum, lastPt1, lastPt2, recList3 #, lastAir
