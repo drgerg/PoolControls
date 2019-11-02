@@ -58,8 +58,6 @@ def dataGrab():
         recList1.append(float("{pt1:.2f}".format(pt1=(9/5 * float(row['pt1']) + 32.00))))
         recList2.append(float("{pt2:.2f}".format(pt2=(9/5 * float(row['pt2']) + 32.00))))
      #   recList3.append(float("{aitb:.2f}".format(aitb=(9/5 * float(row['aitb']) + 32.00))))
-        recList3.append(str(row['dt']))
-        print(recList3)
     recNum = cursor.rowcount
     cursor.close()
     mydb.close()

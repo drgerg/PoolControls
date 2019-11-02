@@ -103,8 +103,11 @@ if __name__ == "__main__":
                     if time.time() < goTime:
                         time.sleep(1)
                     else:
-                        goTime = time.time() + int(freq)
-                        mydb()
+                        try:
+                            goTime = time.time() + int(freq)
+                            mydb()
+                        except Error as error:
+                            logger.info(error)
                         pass
             logger.info("Bottom of try")
 
