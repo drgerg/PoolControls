@@ -1,3 +1,6 @@
+## graphy.py is called by poolGetSQL.py to create the graph 
+## of pool water temperatures from the mySQL database
+
 import matplotlib.pyplot as plt
 import numpy as np
 import io
@@ -12,20 +15,32 @@ def build_graph(x1,x2,x3):
 ## I have x3, which is the time values for the temp records in
 ## x1 and x2.
 #
+###   A HANDY LITTLE TOOL TO GET A .csv FILE FROM THE LIST
+#
+#    with open('output.csv','w') as out_file:
+#        for row in x3:
+#            print('{}'.format(row[0], ','.join(row[1:])), file=out_file)
+###
+#
     xtmax = len(x3)                     # how many records are there
 #    print(xtmax)                        # show me
-    itr = xtmax / 7                     # create an iteration value
+    itr = int(xtmax / 7)                # create an iteration value. Make it an integer.
 #    print(itr)                          # show me
-    xtlbase = []                        # initialize a new list
+    xtltemp = []                        # initialize a temporary list 
+    xtlbase = []                        # initialize the list for our final labels
     stepval = 0                         # initialize a value to be incremented
-    while stepval <= xtmax:              # start the 'while' loop
-        xtlbase.append(x3[stepval])     # append to the list the stepval'th record
-        stepval = stepval + int(itr)    # increment stepval by the itr amount
-#        print(xtlbase)                  # show me
+    while stepval <= xtmax:             # start the 'while' loop to create the temporary list
+        xtltemp.append(x3[stepval])     # append to the list the stepval'th record
+        stepval = stepval + itr         # increment stepval by the itr amount
+#    print(xtltemp)                      # show me
+    for item in xtltemp:                # start a 'for' loop to build the final list
+        xtlbase.append(item[11:16])     # slice off the first 11 characters and the last three
+#    print(xtlbase)                      # show me
     axes.plot(x1, label='IN')
     axes.plot(x2, label='OUT')
     #axes.plot(x3, label='AIR')
     axes.set_ylim([0,100])
+    #axes.set_xticks(6,xtltest)
     axes.set_xticklabels(xtlbase)
     axes.set_ylabel('Degrees F')
     axes.set_xlabel('Time of Day')

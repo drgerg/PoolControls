@@ -50,7 +50,7 @@ def dataGrab():
     lastPt2 = float("{pt2:.2f}".format(pt2=(9/5 * float(record['pt2']) + 32.00)))
     #lastAir = float("{aitb:.2f}".format(aitb=(9/5 * float(record['aitb']) + 32.00)))
     #print(lastPt1, lastPt2)
-    cursor.execute("SELECT * FROM " + DBdatabase + '.' + DBtable + " where DATE_SUB(CURDATE(), INTERVAL 1 DAY) <= dt")
+    cursor.execute("SELECT * FROM " + DBdatabase + '.' + DBtable + " where CURDATE() = date(dt)")
     recList1 = []
     recList2 = []
     recList3 = []
@@ -58,11 +58,12 @@ def dataGrab():
     for row in cursor:
         recList1.append(float("{pt1:.2f}".format(pt1=(9/5 * float(row['pt1']) + 32.00))))
         recList2.append(float("{pt2:.2f}".format(pt2=(9/5 * float(row['pt2']) + 32.00))))
+        recList3.append(str(row['dt']))
 
-    cursor.execute("SELECT DATE_FORMAT(dt, '%H%i') as time FROM " + DBdatabase + '.' + DBtable + " where DATE_SUB(CURDATE(), INTERVAL 1 DAY) <= dt")
+#    cursor.execute("SELECT DATE_FORMAT(dt, '%H%i') as time FROM " + DBdatabase + '.' + DBtable + " where CURDATE() = date(dt)")
 
-    for row in cursor:    
-        recList3.append(str(row['time']))
+#    for row in cursor:    
+#        recList3.append(str(row['time']))
     recNum = cursor.rowcount
     logger.info('There are ' + str(recNum) + ' records here.')
     cursor.close()
