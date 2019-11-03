@@ -29,7 +29,7 @@ def build_graph(x1,x2,x3):
     xtltemp = []                        # initialize a temporary list 
     xtlbase = []                        # initialize the list for our final labels
     stepval = 0                         # initialize a value to be incremented
-    while stepval <= xtmax:             # start the 'while' loop to create the temporary list
+    while stepval <= xtmax - itr:       # start the 'while' loop to create the temporary list
         xtltemp.append(x3[stepval])     # append to the list the stepval'th record
         stepval = stepval + itr         # increment stepval by the itr amount
 #    print(xtltemp)                      # show me
