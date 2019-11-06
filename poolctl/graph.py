@@ -2,6 +2,7 @@
 ## of pool water temperatures from the mySQL database
 
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import numpy as np
 import io
 import base64
@@ -32,15 +33,15 @@ def build_graph(x1,x2,x3):
     while stepval <= xtmax - itr:       # start the 'while' loop to create the temporary list
         xtltemp.append(x3[stepval])     # append to the list the stepval'th record
         stepval = stepval + itr         # increment stepval by the itr amount
-#    print(xtltemp)                      # show me
+#        print(xtltemp)                      # show me
     for item in xtltemp:                # start a 'for' loop to build the final list
         xtlbase.append(item[11:16])     # slice off the first 11 characters and the last three
+    xtlbase.append(x3[xtmax-1][11:16])  # add that last record (minus one)
 #    print(xtlbase)                      # show me
     axes.plot(x1, label='IN')
     axes.plot(x2, label='OUT')
-    #axes.plot(x3, label='AIR')
     axes.set_ylim([0,100])
-    #axes.set_xticks(6,xtltest)
+    axes.xaxis.set_major_locator(ticker.LinearLocator(8))
     axes.set_xticklabels(xtlbase)
     axes.set_ylabel('Degrees F')
     axes.set_xlabel('Time of Day')
