@@ -30,5 +30,5 @@ That's what I know today.
 
 The RTC-Nano is a small very inexpensive RealTime Clock for the RPi.  I consider it a requirement, as it keeps the clock honest amid random reboots.
 
-The module plugs on the first 5 pins of the 40-pin header.  3.3V, (2) I2C pins, GPIO 4, and GND.  Follow the wiki to get everything in place to support this little guy.
+The module plugs on the first 5 pins of the 40-pin header.  [Here's a graphic](./Pics/Rtc_raspberry.png) from the Sunfounder wiki. The pins are 3.3V, (2) I2C pins, GPIO 4, and GND.  Follow the wiki to get everything in place to support this little guy.
 
