@@ -17,11 +17,6 @@ matplotlib - Matplotlib is a Python 2D plotting library which produces publicati
 
 >```sudo pip3 install matplotlib```
 
-I'm using python3 on Raspbian Buster.  So for some reason I need to uninstall numpy and reinstall a special version.
-
->```sudo pip3 uninstall numpy```<br>
->```sudo pip3 install python3-numpy```
-
 That's what I know today.
 
 #### RTC-Nano Real-time Clock module
