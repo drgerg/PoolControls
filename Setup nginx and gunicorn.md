@@ -37,3 +37,25 @@ Add a line just before the <b>gzip_types</b> line that says this:
 
     gzip_min_length 256;
 
+Honestly, I don't know if this is necessary, but it was in the instructions, and I can say it didn't hurt anything, so, plug this in just below the # gzip_types ... line that is there.
+
+    gzip_types
+       application/atom+xml 
+       application/javascript 
+       application/json 
+       application/rss+xml 
+       application/vnd.ms-fontobject 
+       application/x-font-ttf 
+       application/x-web-app-manifest+json 
+       application/xhtml+xml 
+       application/xml 
+       font/opentype 
+       image/svg+xml 
+       image/x-icon 
+       text/css 
+       text/plain 
+       text/x-component 
+       text/javascript 
+       text/xml;
+
+
