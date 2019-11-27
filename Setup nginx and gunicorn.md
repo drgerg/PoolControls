@@ -25,13 +25,13 @@ Once I did that, port 80 was released and the installation of nginx could comple
 
 Once in there, look for these various entries and make them look like this, character for character, no # in front:  (All this comes from e-tinkers linked above.)
 
->    multi_accept on;
->    keepalive_timeout 30;
->    server_tokens off; 
->    gzip_vary on;
->    gzip_proxied any;
->    gzip_comp_level 5;
->    gzip_http_version 1.1;
+    multi_accept on;
+    keepalive_timeout 30;
+    server_tokens off; 
+    gzip_vary on;
+    gzip_proxied any;
+    gzip_comp_level 5;
+    gzip_http_version 1.1;
 
 Add a line just before the <b>gzip_types</b> line that says this: 
 
@@ -65,11 +65,8 @@ Now we need to create a 'sites-available' file pointing to our app.
 server {
         listen 80 default_server;
         listen [::]:80;
-
         root /var/www/html;
-
         server_name poolpi;
-
         location /static {
             alias /var/www/html;
         }
@@ -83,7 +80,7 @@ server {
             proxy_pass http://unix:/home/greg/poolctl/gunicorn.sock;
             include proxy_params;
         }
-
+        
         location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|r$            log_not_found off;
             expires max;
         }
