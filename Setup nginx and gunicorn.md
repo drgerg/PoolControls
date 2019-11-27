@@ -81,7 +81,9 @@ Now we need to create a 'sites-available' file pointing to our app.
                 include proxy_params;
             }
 
-            location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|r$            log_not_found off;
+            location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|ppt|tar|mid|midi|wav|bmp|rtf)$ {
+                access_log off;
+                log_not_found off;
                 expires max;
             }
     }
@@ -105,6 +107,14 @@ I alway list the directory to make sure it's there.  It should look like this:
     lrwxrwxrwx 1 root root   34 Nov 27 09:57 poolApp -> /etc/nginx/sites-available/poolApp
     greg@Poolpi:/etc/nginx/sites-enabled $
 
+Now test the nginx configuration:
+
+```sudo nginx -t```
+
+If it returns successful, continue by typing:
+
+```sudo systemctl restart nginx  (or 'sudo service nginx reload' . . . I'm just used to using 'systemctl restart'.)```
+
 That's all for nginx.  Now for gunicorn.
 
 ### Setup Gunicorn
@@ -127,12 +137,17 @@ That file should look like this when you're done:
     StandardError=syslog
     User=greg
     Group=www-data
-    ExecStop = /bin/kill -2 $MAINPID
+    #ExecStop = /bin/kill -2 $MAINPID
+    ExecReload=/bin/kill -s HUP $MAINPID
+    ExecStop=/bin/kill -s TERM $MAINPID
+    Restart=on-abort
 
     [Install]
     WantedBy=multi-user.target
 
 Note that I am running this as my user 'greg' and www-data is the group.
 
+```sudo systemctl daemon-reload```
 
+```sudo systemctl restart poolctl```
 
