@@ -23,7 +23,7 @@ Once I did that, port 80 was released and the installation of nginx could comple
 
 ```sudo nano /etc/nginx/nginx.conf```
 
-Once in there, look for these entries and make them look like this, character for character, no # in front:  (All this comes from e-tinkers linked above.)
+Once in there, look for these various entries and make them look like this, character for character, no # in front:  (All this comes from e-tinkers linked above.)
 
     multi_accept on;
     keepalive_timeout 30;
@@ -31,3 +31,9 @@ Once in there, look for these entries and make them look like this, character fo
     gzip_vary on;
     gzip_proxied any;
     gzip_comp_level 5;
+    gzip_http_version 1.1;
+
+Add a line just before the <b>gzip_types</b> line that says this: 
+
+    gzip_min_length 256;
+
