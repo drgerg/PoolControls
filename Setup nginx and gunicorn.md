@@ -147,6 +147,16 @@ That file should look like this when you're done:
 
 Note that I am running this as my user 'greg' and www-data is the group.
 
+### Ensure the python app has the correct port listed at the bottom
+
+When you are running in the development server in Flask (Werkzeug), it is intended that you would be using some port other than 80.  So, when you set up a production WSGI server like gunicorn, you'll want to change that at the bottom of your Flask app.  Are there other ways this is done?  I have no idea.  This is the only way I've seen it done in my limited experience.  So I report it here.  
+
+#### From the bottom of poolApp.py:
+
+    if __name__ == "__main__":
+        app.run(host='0.0.0.0')
+        #app.run(host='0.0.0.0', port=5000, debug=True)
+
 ```sudo systemctl daemon-reload```
 
 ```sudo systemctl restart poolctl```
