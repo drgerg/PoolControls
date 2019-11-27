@@ -126,7 +126,7 @@ We installed gunicorn earlier.  Really all that's necessary at this point is to 
 That file should look like this when you're done:
 
     [Unit]
-    Description=Shop Stats and Controls  shopApp.service
+    Description=Sanders Pool Controls  poolctl.service
     After=network-online.target
 
     [Service]
