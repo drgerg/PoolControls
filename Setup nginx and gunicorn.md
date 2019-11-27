@@ -109,4 +109,30 @@ That's all for nginx.  Now for gunicorn.
 
 ### Setup Gunicorn
 
+We installed gunicorn earlier.  Really all that's necessary at this point is to create a systemctl file for it.
+
+```sudo nano /lib/systemd/system/poolApp.service```
+
+That file should look like this when you're done:
+
+    [Unit]
+    Description=Shop Stats and Controls  shopApp.service
+    After=network-online.target
+
+    [Service]
+    Type=simple
+    ExecStart=/usr/bin/python3 /home/greg/poolctl/poolApp.py
+    WorkingDirectory=/home/greg/poolctl/
+    StandardOutput=syslog
+    StandardError=syslog
+    User=greg
+    Group=www-data
+    ExecStop = /bin/kill -2 $MAINPID
+
+    [Install]
+    WantedBy=multi-user.target
+
+Note that I am running this as my user 'greg' and www-data is the group.
+
+
 
