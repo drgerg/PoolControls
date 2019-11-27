@@ -85,3 +85,28 @@ Now we need to create a 'sites-available' file pointing to our app.
                 expires max;
             }
     }
+
+Notice that in the 'proxy_pass' line, I have the .sock file placed in my app's home folder.
+
+Once we have the 'sites-available' file created, we want to make it the default run by nginx.  To do that, we need to replace the 'sites-enabled' default with our new file.
+
+```cd /etc/nginx/sites-enabled```
+
+```sudo rm default```
+
+```sudo ln -s /etc/nginx/sites-available/poolApp .```
+
+I alway list the directory to make sure it's there.  It should look like this:
+
+    greg@Poolpi:/etc/nginx/sites-enabled $ ll
+    total 8
+    drwxr-xr-x 2 root root 4096 Nov 27 09:57 .
+    drwxr-xr-x 8 root root 4096 Nov 27 09:40 ..
+    lrwxrwxrwx 1 root root   34 Nov 27 09:57 poolApp -> /etc/nginx/sites-available/poolApp
+    greg@Poolpi:/etc/nginx/sites-enabled $
+
+That's all for nginx.  Now for gunicorn.
+
+### Setup Gunicorn
+
+
