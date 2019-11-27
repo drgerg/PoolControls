@@ -131,7 +131,7 @@ That file should look like this when you're done:
 
     [Service]
     Type=simple
-    ExecStart=/usr/bin/python3 /home/greg/poolctl/poolApp.py
+    ExecStart=/usr/local/bin/gunicorn --bind=unix:/home/greg/poolctl/gunicorn.sock --threads=8 poolApp:app
     WorkingDirectory=/home/greg/poolctl/
     StandardOutput=syslog
     StandardError=syslog
