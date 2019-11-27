@@ -62,26 +62,26 @@ Now we need to create a 'sites-available' file pointing to our app.
 
 ```sudo nano /etc/nginx/sites-available/poolApp```
 
-server {
-        listen 80 default_server;
-        listen [::]:80;
-        root /var/www/html;
-        server_name poolpi;
-        location /static {
-            alias /var/www/html;
-        }
+    server {
+            listen 80 default_server;
+            listen [::]:80;
+            root /var/www/html;
+                server_name poolpi;
+                location /static {
+                alias /var/www/html;
+            }
 
-        location / {
-            try_files $uri @wsgi;
-        }
+            location / {
+                try_files $uri @wsgi;
+            }
 
-        location @wsgi {
-           # proxy_pass http://unix:/tmp/gunicorn.sock;
-            proxy_pass http://unix:/home/greg/poolctl/gunicorn.sock;
-            include proxy_params;
-        }
-        
-        location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|r$            log_not_found off;
-            expires max;
-        }
-}
+            location @wsgi {
+               # proxy_pass http://unix:/tmp/gunicorn.sock;
+                proxy_pass http://unix:/home/greg/poolctl/gunicorn.sock;
+                include proxy_params;
+            }
+
+            location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|r$            log_not_found off;
+                expires max;
+            }
+    }
