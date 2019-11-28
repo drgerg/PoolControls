@@ -24,20 +24,20 @@ def build_graph(x1,x2,x3):
 ###
 #
     xtmax = len(x3)                     # how many records are there
-#    print(xtmax)                        # show me
-    itr = int(xtmax / 7)                # create an iteration value. Make it an integer.
-#    print(itr)                          # show me
+    #print(xtmax)                        # show me
+    itr = int(xtmax / 7)                # Divide the number of records by 7 to create an iteration value. Make it an integer.
+    #print(itr)                          # show me
     xtltemp = []                        # initialize a temporary list 
     xtlbase = []                        # initialize the list for our final labels
     stepval = 0                         # initialize a value to be incremented
     while stepval <= xtmax - itr:       # start the 'while' loop to create the temporary list
         xtltemp.append(x3[stepval])     # append to the list the stepval'th record
         stepval = stepval + itr         # increment stepval by the itr amount
-#        print(xtltemp)                      # show me
+        #print(xtltemp)                      # show me
     for item in xtltemp:                # start a 'for' loop to build the final list
         xtlbase.append(item[11:16])     # slice off the first 11 characters and the last three
     xtlbase.append(x3[xtmax-1][11:16])  # add that last record (minus one)
-#    print(xtlbase)                      # show me
+    #print(xtlbase)                      # show me
     axes.plot(x1, label='IN')
     axes.plot(x2, label='OUT')
     axes.set_ylim([0,100])

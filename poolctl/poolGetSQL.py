@@ -22,10 +22,12 @@ config.read(poolAppHome + '/poolApp.conf')
 
 logger = logging.getLogger(__name__)
 
-def dataGrab():
+def dataGrab(GD):
+    GD=str(GD)
+    print("GD comes here as: " + GD)
     funNStr = sys._getframe().f_code.co_name
     logger.debug("Started the " + funNStr + " function")
-    dtNow = time.strftime('%Y-%m-%d %H:%M:%S')
+    #dtNow = time.strftime('%Y-%m-%d %H:%M:%S')
     DBhost=config.get('mySQL','Address')
     DBuser=config.get('mySQL','User')
     DBpasswd=config.get('mySQL','Password')
@@ -50,7 +52,8 @@ def dataGrab():
     lastPt2 = float("{pt2:.2f}".format(pt2=(9/5 * float(record['pt2']) + 32.00)))
     #lastAir = float("{aitb:.2f}".format(aitb=(9/5 * float(record['aitb']) + 32.00)))
     #print(lastPt1, lastPt2)
-    cursor.execute("SELECT * FROM " + DBdatabase + '.' + DBtable + " where CURDATE() = date(dt)")
+    #cursor.execute("SELECT * FROM " + DBdatabase + '.' + DBtable + " where CURDATE() = date(dt)")
+    cursor.execute("SELECT * FROM " + DBdatabase + '.' + DBtable + " where SUBDATE(CURDATE(), INTERVAL " + GD + " DAY) <= date(dt)")
     recList1 = []
     recList2 = []
     recList3 = []
@@ -100,7 +103,7 @@ if __name__ == "__main__":
 
             signal.signal(signal.SIGINT, SignalHandler)
             logger.debug("Top of try")
-            dataGrab()
+            dataGrab(GD)
             logger.info("Bottom of try")
 
         except  ValueError as errVal:

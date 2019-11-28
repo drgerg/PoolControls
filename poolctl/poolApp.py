@@ -175,30 +175,47 @@ def stats():
 #
 ## GENERATE THE GRAPHS FROM TEMP DATA
 #
-@app.route('/graphs/')
+@app.route('/graphs/', methods=['POST', 'GET'])
 def graphs():
-   gsr = config.get('mySQL','LogFreq')
-   x1 = dataGrab()[0]
-   x2 = dataGrab()[1]
-   rn = dataGrab()[2]
-   lp1t = dataGrab()[3]
-   lp2t = dataGrab()[4]
-   x3 = dataGrab()[5]
-   #laitb = dataGrab()[6]
+    app.config['WTF_CSRF_ENABLED'] = False
+    form = inputGraphDays()
+    gsr = config.get('mySQL','LogFreq')
+    GD = 0
+    if request.method == 'POST' and form.validate():   
+      returnGD = request.form.get('graphDays')
+      flash("Entry: " + str(returnGD))
+      GD = returnGD
+    elif request.form.get('graphDays') != None:
+      returnGD = request.form.get('graphDays')
+      flash(form.graphDays.errors)
+      flash("Your entry was: " + str(returnGD))
+    pass
+    x1 = dataGrab(GD)[0]
+    x2 = dataGrab(GD)[1]
+    rn = dataGrab(GD)[2]
+    lp1t = dataGrab(GD)[3]
+    lp2t = dataGrab(GD)[4]
+    x3 = dataGrab(GD)[5]
+    #laitb = dataGrab(GD)[6]
    
-   graph1_url = build_graph(x1, x2, x3)
-   #graph2_url = build_graph(x2,y2)
-   #graph3_url = build_graph(x3,y3)
+    graph1_url = build_graph(x1, x2, x3)
+    #graph2_url = build_graph(x2,y2)
+    #graph3_url = build_graph(x3,y3)
     
-   return render_template('graphs.html',
-   graph1=graph1_url,
-   rn=rn,
-   gsr=gsr,
-   lp1t=lp1t,
-   lp2t=lp2t)
-   #laitb=laitb)
-   #graph2=graph2_url,
-   #graph3=graph3_url)
+    return render_template('graphs.html',
+    graph1=graph1_url,
+    GD=GD,
+    x1=x1,
+    x2=x2,
+    x3=x3,
+    rn=rn,
+    gsr=gsr,
+    lp1t=lp1t,
+    lp2t=lp2t,
+    form=form)
+    #laitb=laitb)
+    #graph2=graph2_url,
+    #graph3=graph3_url)
  
 #
 ## SET UP THE FORM 
@@ -227,7 +244,10 @@ class inputSchedTime5(FlaskForm):
 class inputSchedTime6(FlaskForm):
    schedTime6 = StringField(label='sched6', validators=[Length(min=0, max=4, message='Entry can only be exactly four digits.')])
    go6 = SubmitField(label = 'GO', id = '6')
-                         
+
+class inputGraphDays(FlaskForm):
+   graphDays = StringField(label='graphDays', validators=[Length(min=0, max=3)])
+   graphGo = SubmitField(label = 'GO', id = '7')
    
 
 @app.route('/2/', methods=['POST', 'GET'])
