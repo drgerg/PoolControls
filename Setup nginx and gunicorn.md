@@ -5,7 +5,7 @@ I am condensing instructions I found on the web here: [www.e-tinkers.com](https:
 
 ```sudo apt-get update```
 
-If you have anything using port 80, you'll want to stop it.  I had my existing poolctl.service running with Flask and Werkzeug, it's built-in WSGI application library.  I kept getting errors at the end of the 'apt-get install nginx' process until I finally stopped long enough to read the screen and realize that systemctl was trying to start nginx and port 80 was in use by my poolctl app.
+If you have anything using port 80, you'll want to stop it.  I had my existing poolctl.service running with Flask and Werkzeug, its built-in WSGI application library.  I kept getting errors at the end of the 'apt-get install nginx' process until I finally stopped long enough to read the screen and realize that systemctl was trying to start nginx and port 80 was in use by my poolctl app.
 
 So . . . I needed to use this:
 
@@ -57,6 +57,8 @@ Honestly, I don't know if this is necessary, but it was in the instructions, and
        text/x-component 
        text/javascript 
        text/xml;
+
+Save your file and exit.
 
 Now we need to create a 'sites-available' file pointing to our app.
 
