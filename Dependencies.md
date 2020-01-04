@@ -2,11 +2,11 @@
 
 Flask - python3 module.  Flask is a lightweight WSGI web application framework.
 
->```pip3 install -U Flask```
+>```sudo pip3 install -U Flask```
 
 flask_wtf - Python3 module.  Simple integration of Flask and WTForms, including CSRF, file upload, and reCAPTCHA.
 
->```pip3 install flask_wtf```
+>```sudo pip3 install flask_wtf```
 
 There are more modules that are not yet listed here.  
 I'm just now getting this up to date (10/31/19).  Check the 'import' statements for clues.
