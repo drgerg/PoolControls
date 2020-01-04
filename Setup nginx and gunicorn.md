@@ -58,7 +58,7 @@ Honestly, I don't know if this is necessary, but it was in the instructions, and
        text/javascript 
        text/xml;
 
-Save your file and exit.
+Save your file and exit the editor (CTRL-X, Y, <enter>).
 
 ##### Now we need to create a 'sites-available' file pointing to our app.
 
