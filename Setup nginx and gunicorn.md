@@ -61,6 +61,7 @@ Honestly, I don't know if this is necessary, but it was in the instructions, and
 Save your file and exit.
 
 Now we need to create a 'sites-available' file pointing to our app.
+PAY CLOSE ATTENTION: The 'proxy_pass' entry has a hard-coded path pointing to my app's 'home' directory.  Obviously this won't work unless you change that path to point to your app's 'home' directory.
 
 ```sudo nano /etc/nginx/sites-available/poolApp```
 
