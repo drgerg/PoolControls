@@ -17,7 +17,7 @@ Once I did that, port 80 was released and the installation of nginx could comple
 
 ```sudo apt-get install ngnix```
 
-```sudo apt-get install gunicorn```
+```sudo pip3 install gunicorn```
 
 #### Makes edits to /etc/nginx/nginx.conf
 
