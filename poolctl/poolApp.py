@@ -1,15 +1,16 @@
-'''
-poolApp.py
+#!/usr/bin/env python3
 
-Adapted by Greg Sanders August 2019 to run a Elegoo 8 channel relay module to control pool equipment.
-    Adapted from:
-       Adapted excerpt from Getting Started with Raspberry Pi by Matt Richardson
-       as modified by Rui Santos
+# poolApp.py
+
+# Adapted by Greg Sanders August 2019 to run a Elegoo 8 channel relay module to control pool equipment.
+#     Adapted from:
+#        Inspired by an adapted excerpt from Getting Started with Raspberry Pi by Matt Richardson
+#        as modified by Rui Santos
    
-'''
+
 
 import RPi.GPIO as GPIO
-import os, pickle, re, time, requests, subprocess, poolGetSensors,configparser,signal,threading
+import os, pickle, re, time, requests, sys, logging, traceback, subprocess, poolGetSensors,configparser,signal,threading
 from collections import OrderedDict
 from flask import Flask, render_template, request, flash, url_for
 from flask_wtf import FlaskForm
@@ -34,6 +35,9 @@ config.read(poolAppHome + '/poolApp.conf')
 #
 ## End ConfigParser init
 #
+logger = logging.getLogger(__name__)
+logging.basicConfig(filename=poolAppHome + '/poolApp.log', format='%(asctime)s - %(message)s', datefmt='%a, %d %b %Y %H:%M:%S', level=logging.INFO)
+logger.info(" - - - - poolApp.py DATA LOGGING STARTED - - - - ")
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
@@ -60,7 +64,8 @@ else:
        22 : {'sort' : '2', 'name' : 'Pump Step 2', 'state' : GPIO.HIGH},
        23 : {'sort' : '3', 'name' : 'Pump Step 3', 'state' : GPIO.HIGH},
        5 : {'sort' : '4', 'name' : 'Pump Override', 'state' : GPIO.HIGH},
-       24 : {'sort' : '5', 'name' : 'Pool Lights', 'state' : GPIO.HIGH}
+       24 : {'sort' : '5', 'name' : 'Pool Lights', 'state' : GPIO.HIGH},
+       25 : {'sort' : '6', 'name' : 'WeathPi Reset', 'state' : GPIO.HIGH}
        
        }
    Spins = OrderedDict(sorted(pins.items(), key=lambda kv: kv[1]['sort']))
@@ -105,17 +110,19 @@ def schdCheck():
    sched1 = pickle.load(open(poolAppHome + '/CurrentSched.pkl', 'rb'))
    locTime = time.localtime()
    locTimeStr = str(locTime.tm_hour).rjust(2, '0')+str(locTime.tm_min).rjust(2, '0')
+#    logger.info("CurrentSched.pkl was opened. locTimeStr is:" + locTimeStr + '.')
    # print(locTimeStr)
    for t in sched1:
       tt = str(sched1[t]['time'])
-      # print(tt)
+    #   logger.info(str("t is: " + str(t) + " and tt is: " + tt + '.'))
       if tt == locTimeStr:
          tName = sched1[t]['name']
+        #  logger.info('Schedule' + str(sched1[t]) + 'triggered.')
          tAction = sched1[t]['action']
          for p in Spins:
             if Spins[p]['name'] == tName:
                getPin = str(p)
-               print(locTimeStr + ": Changing status of " + tName + " to " + tAction + ". Pin " + getPin)
+               logger.info(locTimeStr + ": Scheduled action: " + tName + " set to " + tAction + ". Pin " + getPin)
                action(getPin,tAction)
    return "OK", 200
 
@@ -159,15 +166,15 @@ def stats():
    cpuTemp = poolGetSensors.cpuTemp()[1]
    probe1Temp = poolGetSensors.getTemp('probe1')[1]
    probe2Temp = poolGetSensors.getTemp('probe2')[1]
-   probe3Temp = poolGetSensors.getTemp('probe3')[1]
+   #probe3Temp = poolGetSensors.getTemp('probe3')[1]
    # 
    # Put the various temps dictionary into the template data dictionary:
    #
    templateData = {
       'cpuTemp' : cpuTemp,
       'probe1Temp' : probe1Temp,
-      'probe2Temp' : probe2Temp,
-      'probe3Temp' : probe3Temp
+      'probe2Temp' : probe2Temp
+    #  'probe3Temp' : probe3Temp
       }
    # 
    # Pass the template data into the template main.html and return it to the user
@@ -277,6 +284,7 @@ def schdChng1():
       sched1[1]['time'] = returnText
       sched1[1]['name'] = returnName
       sched1[1]['action'] = returnAct
+      logger.info('Schedule slot 1 is now ' + str(returnText) + " : " + str(returnName) + " : " + str(returnAct) + '.')
    elif request.form.get('schedTime1') != None:
       returnText = request.form.get('schedTime1')
       flash(form.schedTime1.errors)
@@ -306,6 +314,7 @@ def schdChng2():
       sched1[2]['time'] = returnText
       sched1[2]['name'] = returnName
       sched1[2]['action'] = returnAct
+      logger.info('Schedule slot 2 is now ' + str(returnText) + " : " + str(returnName) + " : " + str(returnAct) + '.')
    elif request.form.get('schedTime2') != None:
       returnText = request.form.get('schedTime2')
       flash(form.schedTime2.errors)
@@ -335,6 +344,7 @@ def schdChng3():
       sched1[3]['time'] = returnText
       sched1[3]['name'] = returnName
       sched1[3]['action'] = returnAct
+      logger.info('Schedule slot 3 is now ' + str(returnText) + " : " + str(returnName) + " : " + str(returnAct) + '.')
    elif request.form.get('schedTime3') != None:
       returnText = request.form.get('schedTime3')
       flash(form.schedTime3.errors)
@@ -364,6 +374,7 @@ def schdChng4():
       sched1[4]['time'] = returnText
       sched1[4]['name'] = returnName
       sched1[4]['action'] = returnAct
+      logger.info('Schedule slot 4 is now ' + str(returnText) + " : " + str(returnName) + " : " + str(returnAct) + '.')
    elif request.form.get('schedTime4') != None:
       returnText = request.form.get('schedTime4')
       flash(form.schedTime4.errors)
@@ -393,6 +404,7 @@ def schdChng5():
       sched1[5]['time'] = returnText
       sched1[5]['name'] = returnName
       sched1[5]['action'] = returnAct
+      logger.info('Schedule slot 5 is now ' + str(returnText) + " : " + str(returnName) + " : " + str(returnAct) + '.')
    elif request.form.get('schedTime5') != None:
       returnText = request.form.get('schedTime5')
       flash(form.schedTime5.errors)
@@ -422,6 +434,7 @@ def schdChng6():
       sched1[6]['time'] = returnText
       sched1[6]['name'] = returnName
       sched1[6]['action'] = returnAct
+      logger.info('Schedule slot 6 is now ' + str(returnText) + " : " + str(returnName) + " : " + str(returnAct) + '.')
    elif request.form.get('schedTime6') != None:
       returnText = request.form.get('schedTime6')
       flash(form.schedTime6.errors)
@@ -468,6 +481,7 @@ def action(changePin, action):
          GPIO.output(23, GPIO.LOW)
       if changePin == 24:
          GPIO.output(24, GPIO.LOW)
+      message = "Turned " + deviceName + " on."
 
    if action == "off":
       GPIO.output(changePin, GPIO.HIGH)
@@ -476,10 +490,11 @@ def action(changePin, action):
    # For each pin, read the pin state and store it in the pins dictionary:
    for pin in Spins:
       Spins[pin]['state'] = GPIO.input(pin)
-
+   logger.info(deviceName + ' set to ' + action + '.')
    # Along with the pin dictionary, put the message into the template data dictionary:
    templateData = {
       #'schedTimes' : schedTimes,
+      'message' : message,
       'sched1' : sched1,
       'pins' : Spins
    }
@@ -488,8 +503,62 @@ def action(changePin, action):
    pickle.dump(sched1, open(poolAppHome + '/CurrentSched.pkl', 'ab+'), pickle.HIGHEST_PROTOCOL)
    return render_template('main.html', **templateData)
 
+#
+## WeatherPi Reset using Pin 25 (relay 7)
+#
+@app.route('/reset/', methods=['POST', 'GET'])
+def reset():
+    GPIO.output(25, GPIO.LOW)
+    time.sleep(.5)
+    GPIO.output(25, GPIO.HIGH)
+    message = 'Performed hard reset of WeatherPi.'
+    logger.info('Performed hard reset of WeatherPi.')
+#    templateData = {
+#        'message' : message
+#    }
+    return message
+#    return render_template('reset.html', **templateData)
+
+def SignalHandler(signal, frame):
+    if signal == 2:
+        sigStr = 'CTRL-C'
+        logger.info('* * * ' + sigStr + ' caught. * * * ')
+    else:
+        sigStr = str(signal)
+    logger.info("SignalHandler invoked by signal: " + sigStr + '.')
+    logger.info("Shutting down gracefully")
+    logger.debug("Wrote to log in SignalHandler")
+    logger.info("That's all folks.  Goodbye")
+    logger.info(" - - - - poolApp.py DATA LOGGING STOPPED INTENTIONALLY - - - - ")
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, SignalHandler)  ## This one catches CTRL-C from the local keyboard
+signal.signal(signal.SIGTERM, SignalHandler) ## This one catches the Terminate signal from the system  
+
 
 if __name__ == "__main__":
-   app.run(host='0.0.0.0')
+#    app.run(host='0.0.0.0')
    #app.run(host='0.0.0.0', port=5010, debug=True)
    #app.run(host='192.16.1.10', port=80)
+
+
+    # if argsTest.debug:
+    #     logging.basicConfig(filename=TestHome + '/test.log', format='[%(name)s]:%(levelname)s: %(message)s. - %(asctime)s', datefmt='%D %H:%M:%S', level=logging.DEBUG)
+    #     logging.info("Debugging output enabled")
+    # else:
+    #     logging.basicConfig(filename=TestHome + '/test.log', format='%(asctime)s - %(message)s', datefmt='%a, %d %b %Y %H:%M:%S', level=logging.INFO)
+    #
+    logger.info(" - - - - poolApp.py STARTED FROM COMMANDLINE WITH DATA LOGGING- - - - ")
+    print('Logger info')
+    # #
+    # signal.signal(signal.SIGINT, SignalHandler)  ## This one catches CTRL-C from the local keyboard
+    # signal.signal(signal.SIGTERM, SignalHandler) ## This one catches the Terminate signal from the system    
+    try:
+        app.run(host='0.0.0.0')
+        pass
+    except Exception:
+        logger.info("Exception caught at bottom of try.", exc_info=True)
+        error = traceback.print_exc()
+        logger.info(error)
+        logger.info("That's all folks.  Goodbye")
+        logger.info(" - - - - poolApp.py DATA LOGGING STOPPED BY EXCEPTION - - - - ")

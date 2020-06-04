@@ -1,0 +1,29 @@
+server {
+        listen 80 default_server;
+        listen [::]:80;
+
+        root /var/www/html;
+
+        server_name poolpi;
+
+	location ^~ /static/  {
+	    include  /etc/nginx/mime.types;
+	    root /home/greg/poolctl/;
+	}
+
+        location / {
+            try_files $uri @wsgi;
+        }
+
+        location @wsgi {
+           # proxy_pass http://unix:/tmp/gunicorn.sock;
+            proxy_pass http://unix:/home/greg/poolctl/gunicorn.sock;
+            include proxy_params;
+        }
+
+        location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|ppt|tar|mid|midi|wav|bmp|rtf)$ {
+            access_log off;
+            log_not_found off;
+            expires max;
+        }
+}
