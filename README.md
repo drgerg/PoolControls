@@ -1,7 +1,8 @@
 # PoolControls
+Significant updates in some places 06/03/2020
+Updated with working files 10/31/2019
 Initialized 9/22/2019
 
-Updated with working files 10/31/2019
 
 NOTE: This is a working system here at my house.  I'm also always tweaking on it.  Don't be upset if you clone this and try to make it work and it doesn't.  Just be happy if it does work.  When I've had more time to dedicate to it, I will be able to fine-tune the docs and stuff here.
 
