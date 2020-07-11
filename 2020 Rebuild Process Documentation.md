@@ -1,3 +1,4 @@
+### 2020 Rebuild Process Documentation ###
     • Download Raspberry Pi Imager for Windows
         ◦ https://www.raspberrypi.org/downloads/
     • Install Imager on Windows machine
