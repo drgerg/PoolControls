@@ -46,7 +46,7 @@ Let's begin:
 - Set a static IP address.
   - ```$ sudo nano /etc/dhcpcd.conf```
   - Edit the hostname at the top of the file to match your hostname.
-  - Add these lines to the bottom:<br>
+  - Read the examples, the add something like these lines to the bottom:<br><br>
         interface eth0<br>
         static ip_address 192.168.1.###/24  (### is your number)<br>
         static routers=192.168.1.###  (### is your router's address)<br>
