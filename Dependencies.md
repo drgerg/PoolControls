@@ -1,4 +1,4 @@
-### Dependencies required to make poolApp.py work
+# Dependencies required to make poolApp.py work
 
 Flask - python3 module.  Flask is a lightweight WSGI web application framework.
 
