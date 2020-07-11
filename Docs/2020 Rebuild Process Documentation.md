@@ -28,10 +28,10 @@ Let's begin:
   - ```$ usermod -l newname pi```
   - Change user group.  Start by finding out what groups the oldname belongs to.
   - ```$ groups oldname```
-  - Edit /etc/group manually to change 'pi' to 'newname'.  This is the primary group.
-  - ```$ sudo nano /etc/group```
   - Change all the Secondary groups at once by:  (leave off the first one, which was 'pi')
   - ```$ usermod -G comma,delimited,list,of,groups,from,the,last,step newname```
+  - Edit /etc/group manually to change 'pi' to 'newname'.  This changes newname's primary group.
+  - ```$ sudo nano /etc/group```
   - Create a new /home/directory and move newuser's files over there.
   - ```$ usermod -m -d /home/newname newname```
   - Log out of root's account and into the newname account
@@ -60,6 +60,9 @@ Let's begin:
   - You will get an warning message when you log in. That's normal. Read, follow, fix.
 
 - Log in using SSH and do the rest of this more comfortably.
+- Log back out, and set up key-based login (only if you already have this working. Otherwise, you have to set that up first.)
+  - ```$ ssh-copy-id newname@pi-hostname -p portNumber```
+
 
 
 
