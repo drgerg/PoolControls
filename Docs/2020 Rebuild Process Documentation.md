@@ -47,10 +47,10 @@ Let's begin:
   - ```$ sudo nano /etc/dhcpcd.conf```
   - Edit the hostname at the top of the file to match your hostname.
   - Read the examples, the add something like these lines to the bottom:<br><br>
-        interface eth0<br>
-        static ip_address 192.168.1.###/24  (### is your number)<br>
-        static routers=192.168.1.###  (### is your router's address)<br>
-        static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)<br>
+            interface eth0<br>
+            static ip_address 192.168.1.###/24  (### is your number)<br>
+            static routers=192.168.1.###  (### is your router's address)<br>
+            static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)<br>
 
   - Save and reboot.  You should see the new IP address.  If not, do:
   - ```$ ip addr```
