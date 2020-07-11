@@ -49,8 +49,17 @@ Let's begin:
   - Read the examples, the add something like these lines to the bottom:
     > interface eth0<br>
     > static ip_address 192.168.1.###/24  (### is your number)<br>
-    > static routers=192.168.1.###  (### is your router's address)<br>
+    > static routers=192.168.1.###  (### is your router's number)<br>
     > static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)
 
   - Save and reboot.  You should see the new IP address.  If not, do:
   - ```$ ip addr```
+
+- Change the SSH port
+  - ```$ sudo nano /etc/sshd/sshd_config```
+  - You will get an warning message when you log in. That's normal. Read, follow, fix.
+
+- Log in using SSH and do the rest of this more comfortably.
+
+
+
