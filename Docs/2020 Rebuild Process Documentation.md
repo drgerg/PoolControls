@@ -22,15 +22,25 @@ Let's begin:
 - Change default user/group and password
   - Create root user password
   - ```$ sudo passwd root```
-  - log out and back in as root
-  - change user name
+  - Log out and back in as root
+  - ```$ logout```
+  - Change user name
   - ```$ usermod -l newname pi```
-  - change user group
-  - ```$ groups```
-  - followed by
-  - ```$ usermod -g newGroup -G newname,comma,delimited,list,of,groups,from,the,last,step```
-  - 
+  - Change user group.  Start by finding out what groups the oldname belongs to.
+  - ```$ groups oldname```
+  - Edit /etc/group manually to change 'pi' to 'newname'.  This is the primary group.
+  - ```$ sudo nano /etc/group```
+  - Change all the Secondary groups at once by:  (leave off the first one, which was 'pi')
+  - ```$ usermod -G comma,delimited,list,of,groups,from,the,last,step newname```
+  - Create a new /home/directory and move newuser's files over there.
   - ```$ usermod -m -d /home/newname newname```
+  - Log out of root's account and into the newname account
+  - ```$ logout```
+  - Change newname's password
   - ```$ passwd```
+  - Run apt-get update to verify sudo permissions are working.
   - ```$ sudo apt-get update```
+  - Remove the root password.  You really don't need it now.
   - ```$ sudo passwd -l root```
+
+
