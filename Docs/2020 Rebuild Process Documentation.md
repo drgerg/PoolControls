@@ -83,7 +83,7 @@ Let's begin:
   - ```$ sudo apt-get -y remove fake-hwclock```
   - ```$ sudo update-rc.d -f fake-hwclock remove```
   - ```$ sudo nano /lib/udev/hwclock-set```
-  - Comment out these lines so it looks like this:<br>
+  - Comment out these lines so it looks like this: (ONLY the 3 lines that read exactly this. You supply the pound signs (hashes).)<br>
          ```# if [ -e /run/systemd/system ] ; then```<br>
          ```#    exit 0```<br>
          ```# fi```<br>
