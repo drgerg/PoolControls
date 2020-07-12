@@ -104,11 +104,13 @@ Let's begin:
   - ```$ sudo pip3 install mysql.connector```
   - ```$ sudo pip3 install configparser```
   
-- Double-check that you have both of the system service files:
+- Double-check that you have all three of the system service files:
     - /lib/systemd/system/poolctl.service
     - /lib/systemd/system/pooltimer.service
-- Once they are both safely ensconced in the /lib/systemd/system folder, run these:
+    - /lib/systemd/system/pooSQL.service
+- Once they are safely ensconced in the /lib/systemd/system folder, run these:
   - ```$ sudo systemctl enable poolctl.service```
   - ```$ sudo systemctl enable pooltimer.service```
+  - ```$ sudo systemctl enable poolSQL.service```
   - ```$ sudo systemctl daemon-reload```
 - Reboot again.
