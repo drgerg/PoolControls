@@ -61,7 +61,7 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
   - ```$ sudo nano /etc/dhcpcd.conf```
     - Edit the hostname at the top of the file to match your hostname.
     - Read the examples, the add something like these lines to the bottom:
-        > interface eth0<br>
+        > interface wlan0<br>
         > static ip_address 192.168.1.###/24  (### is your number)<br>
         > static routers=192.168.1.###  (### is your router's number)<br>
         > static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)<br>
