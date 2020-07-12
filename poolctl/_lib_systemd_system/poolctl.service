@@ -1,11 +1,19 @@
 [Unit]
-Description=Sanders Pool Controls
+Description=Sanders Pool Controls  poolctl.service
 After=network-online.target
- 
+
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/greg/pipy/webserver/poolApp.py
+ExecStart=/usr/local/bin/gunicorn --bind=unix:/home/greg/poolctl/gunicorn.sock --threads=8 poolApp:app
+WorkingDirectory=/home/greg/poolctl/
+StandardOutput=syslog
+StandardError=syslog
+User=greg
+Group=www-data
+#ExecStop = /bin/kill -2 $MAINPID
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
 Restart=on-abort
- 
+
 [Install]
 WantedBy=multi-user.target

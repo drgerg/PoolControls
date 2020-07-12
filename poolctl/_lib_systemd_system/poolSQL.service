@@ -5,7 +5,7 @@ After=network-online.target
 [Service]
 User=greg
 Type=simple
-ExecStart=/home/greg/pipy/webserver/poolSQL.py
+ExecStart=/home/greg/poolctl/poolSQL.py
 Restart=on-abort
  
 [Install]
