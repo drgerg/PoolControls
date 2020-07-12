@@ -1,6 +1,6 @@
 # PoolControls
 
-Pool Controls uses a Raspberry Pi and an Elegoo 8-relay board to control a mult-speed pool pump and pool lights.
+Pool Controls uses a Raspberry Pi and an Elegoo 8-relay board to control a multi-speed pool pump and pool lights.
 
 Pool Controls (not really a name, more a description) is a project that took form in a hurry. As is often the case in projects like that, the documentation has been sketchy and long in coming.
 

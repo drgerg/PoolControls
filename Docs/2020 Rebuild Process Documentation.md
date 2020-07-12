@@ -16,8 +16,12 @@ Let's begin:
 - Run "sudo raspi-config" at command prompt
         Make changes to Network, Hostname, localization, timezone, enable SSH
 - Reboot.
-- Install pip3
+- Install pip3 (two steps)
+  - ```$ sudo apt-get update```
+  - ```$ sudo apt-get install python3-pip```
 - Install RPi.GPIO module for Python
+  - ```$ sudo apt-get install python3-rpi.gpio```
+
 - Change default user/group and password
   - Create root user password
   - ```$ sudo passwd root```
