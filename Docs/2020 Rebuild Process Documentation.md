@@ -11,7 +11,6 @@ Let's begin:
   - <https://www.raspberrypi.org/downloads/>
 - Install Imager on Windows machine
 - Run Imager and write selected OS to SD card
-- Start following the steps I wrote out at: <https://github.com/casspop/ohd/blob/master/SetupRaspianForOhd.md>
 - Insert SD card and boot Pi
   - Login - username: pi, password: raspberry
 - Run "sudo raspi-config" at command prompt
