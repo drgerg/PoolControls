@@ -10,7 +10,7 @@ Let's begin:
 - Download Raspberry Pi Imager for Windows
   - <https://www.raspberrypi.org/downloads/>
 - Install Imager on Windows machine
-- Run Imager and write your selected OS to your SD card
+- Run Imager and write your selected OS to your Micro-SD card
 - Attach a display and keyboard/mouse to the Pi
 - Insert SD card and boot Pi
   - Login - username: pi, password: raspberry
