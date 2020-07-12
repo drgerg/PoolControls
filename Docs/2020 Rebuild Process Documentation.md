@@ -62,7 +62,30 @@ Let's begin:
 - Log in using SSH and do the rest of this more comfortably.
 - Log back out, and set up key-based login (only if you already have this working. Otherwise, you have to set that up first.)
   - ```$ ssh-copy-id newname@pi-hostname -p portNumber```
+- Edit .bashrc in /home/newname to add the 'll' alias. (Not using sudo. .bashrc is your file.)
+  - ```$ nano .bashrc```
+- 
+- Edit /boot/config.txt:
+  - ```$ sudo nano /boot/config.txt```
+    - Add these lines to the bottom of the file.<br>
+        > dtoverlay=i2c-rtc,ds3231 
+        > dtoverlay w1-gpio,gpiopin=26,pullup=0
+        > dtoverlay w1-gpio,gpiopin=19,pullup=0
 
-
+- Prep things for using the Adafruit DS3231 Real-Time Clock (ADA3013)
+  - ```$ sudo apt-get install python-smbus i2c-tools```
+  - ```$ sudo i2cdetect -y 1```
+  - The number 68 should be in the resulting table.  If not, reboot and try again.
+  - 68 is the i2c address for the RTC module.
+  - ```$ sudo apt-get -y remove fake-hwclock```
+  - ```$ sudo update-rc.d -f fake-hwclock remove```
+  - ```$ sudo nano /lib/udev/hwclock-set```
+  - Comment out these lines so it looks like this:
+        > #if [ -e /run/systemd/system ] ; then
+        > #    exit 0
+        > #fi
+- Reboot (just for safety's sake)
+- Follow ['Dependencies required to make poolApp.py work'](https://github.com/casspop/PoolControls/blob/master/Dependencies.md)
+- Follow ['Setup nginx and gunicorn'](https://github.com/casspop/PoolControls/blob/master/Setup%20nginx%20and%20gunicorn.md)
 
 
