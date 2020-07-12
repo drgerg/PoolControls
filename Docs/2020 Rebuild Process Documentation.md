@@ -47,10 +47,10 @@ Let's begin:
   - ```$ sudo nano /etc/dhcpcd.conf```
     - Edit the hostname at the top of the file to match your hostname.
     - Read the examples, the add something like these lines to the bottom:
-        > interface eth0
-        > static ip_address 192.168.1.###/24  (### is your number)
-        > static routers=192.168.1.###  (### is your router's number)
-        > static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)
+        > interface eth0<br>
+        > static ip_address 192.168.1.###/24  (### is your number)<br>
+        > static routers=192.168.1.###  (### is your router's number)<br>
+        > static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)<br>
 
   - Save and reboot.  You should see the new IP address.  If not, do:
   - ```$ ip addr```
@@ -70,9 +70,9 @@ Let's begin:
   - ```$ sudo nano /boot/config.txt```
     - Add these lines to the bottom of the file.
 
-        > dtoverlay=i2c-rtc,ds3231 
-        > dtoverlay w1-gpio,gpiopin=26,pullup=0
-        > dtoverlay w1-gpio,gpiopin=19,pullup=0
+        > dtoverlay=i2c-rtc,ds3231<br>
+        > dtoverlay w1-gpio,gpiopin=26,pullup=0<br>
+        > dtoverlay w1-gpio,gpiopin=19,pullup=0<br>
 
     -This sets up the Pi to use the 1-wire thermometers we have.<br><br>
 - Prep the system for using the Adafruit DS3231 Real-Time Clock (ADA3013)
