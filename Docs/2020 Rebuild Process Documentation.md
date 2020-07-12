@@ -119,6 +119,10 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
   - ```$ sudo pip3 install flask_wtf```
   - ```$ sudo pip3 install mysql.connector```
   - ```$ sudo pip3 install configparser```
+
+- Set poolTimer.py and poolSQL.py to executable
+  - ```$ sudo chmod 755 poolTimer.py```
+  - ```$ sudo chmod 755 poolSQL.py```
   
 - Double-check that you have all three of the system service files:
     - /lib/systemd/system/poolctl.service
