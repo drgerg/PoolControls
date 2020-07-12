@@ -24,7 +24,7 @@ Let's begin:
     f. Select localization option: change keyboard layout<br>
     g. Select Interfacing options: enable SSH<br>
 
-The official resource for raspi-config is here: [raspberrypi.org](https://www.raspberrypi.org/documentation/configuration/raspi-config.md)
+The official resource for **raspi-config** is here: [raspberrypi.org](https://www.raspberrypi.org/documentation/configuration/raspi-config.md)
 
 - Reboot.
 - Install pip3 (two steps)
