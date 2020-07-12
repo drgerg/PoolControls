@@ -66,31 +66,34 @@ Now we need to create a 'sites-available' file pointing to our app.
 
 ```sudo nano /etc/nginx/sites-available/poolApp```
 
-    server {
-            listen 80 default_server;
-            listen [::]:80;
-            root /var/www/html;
+        server {
+                listen 80 default_server;
+                listen [::]:80;
+
+                root /var/www/html;
+
                 server_name poolpi;
-                location /static {
-                alias /var/www/html;
-            }
 
-            location / {
-                try_files $uri @wsgi;
-            }
+                location ^~ /static/  {
+                    include  /etc/nginx/mime.types;
+                    root /home/greg/poolctl/;
+                }
 
-            location @wsgi {
-               # proxy_pass http://unix:/tmp/gunicorn.sock;
-                proxy_pass http://unix:/home/greg/poolctl/gunicorn.sock;
-                include proxy_params;
-            }
+                location / {
+                    try_files $uri @wsgi;
+                }
 
-            location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|ppt|tar|mid|midi|wav|bmp|rtf)$ {
-                access_log off;
-                log_not_found off;
-                expires max;
-            }
-    }
+                location @wsgi {
+                # proxy_pass http://unix:/tmp/gunicorn.sock;
+                    proxy_pass http://unix:/home/greg/poolctl/gunicorn.sock;
+                    include proxy_params;
+                }
+
+                location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|$            access_log off;
+                    log_not_found off;
+                    expires max;
+                }
+        }
 
 Notice that in the 'proxy_pass' line, I have the .sock file placed in my app's home folder.
 
