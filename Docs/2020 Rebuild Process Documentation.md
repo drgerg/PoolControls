@@ -85,6 +85,14 @@ Let's begin:
         > #    exit 0
         > #fi
 - Reboot (just for safety's sake)
+- Check the date and time.
+  - ``$ date``
+  - If it's good, set the hardware clock (RTC).
+    - ``$ sudo hwclock -w``
+  - Read it to see if all went well.
+    - ``$ sudo hwclock -r``
+
+
 - Follow ['Dependencies required to make poolApp.py work'](https://github.com/casspop/PoolControls/blob/master/Dependencies.md)
 - Follow ['Setup nginx and gunicorn'](https://github.com/casspop/PoolControls/blob/master/Setup%20nginx%20and%20gunicorn.md)
 
