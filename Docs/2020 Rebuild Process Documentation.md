@@ -107,7 +107,7 @@ Let's begin:
 - Double-check that you have all three of the system service files:
     - /lib/systemd/system/poolctl.service
     - /lib/systemd/system/pooltimer.service
-    - /lib/systemd/system/pooSQL.service
+    - /lib/systemd/system/poolSQL.service
 - You can re-create them by copying the file contents from the template files in the _lib_systemd_system folder.
 - Once they are safely ensconced in the /lib/systemd/system folder, run these:
   - ```$ sudo systemctl enable poolctl.service```
