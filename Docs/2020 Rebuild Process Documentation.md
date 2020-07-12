@@ -103,6 +103,9 @@ Let's begin:
   - ```$ sudo pip3 install flask_wtf```
   - ```$ sudo pip3 install mysql.connector```
   - ```$ sudo pip3 install configparser```
-  - 
-  - 
+  
+  - Double-check that you have both of the system service files:
+    - /lib/systemd/system/poolctrl.service
+    - /lib/systemd/system/pooltimer.service
+    - 
 
