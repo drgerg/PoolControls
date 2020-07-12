@@ -83,10 +83,10 @@ Let's begin:
   - ```$ sudo apt-get -y remove fake-hwclock```
   - ```$ sudo update-rc.d -f fake-hwclock remove```
   - ```$ sudo nano /lib/udev/hwclock-set```
-  - Comment out these lines so it looks like this:
-         ```# if [ -e /run/systemd/system ] ; then```
-         ```#    exit 0```
-         ```# fi```
+  - Comment out these lines so it looks like this:<br>
+         ```# if [ -e /run/systemd/system ] ; then```<br>
+         ```#    exit 0```<br>
+         ```# fi```<br>
 - Reboot (just for safety's sake)
 - Check the date and time.
   - ``$ date``
