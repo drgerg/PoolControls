@@ -54,7 +54,7 @@ dtparam=i2c_arm=on
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
-dtoverlay=i2c-rtc,pcf8563 
+dtoverlay=i2c-rtc,ds3231
 dtoverlay w1-gpio,gpiopin=26,pullup=0
 dtoverlay w1-gpio,gpiopin=19,pullup=0
 #dtoverlay=w1-gpio 
