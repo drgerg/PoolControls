@@ -108,7 +108,7 @@ Let's begin:
     - /lib/systemd/system/poolctl.service
     - /lib/systemd/system/pooltimer.service
     - /lib/systemd/system/pooSQL.service
-- You can re-create them by copying the file contents from the _lib_systemd_system folder.
+- You can re-create them by copying the file contents from the template files in the _lib_systemd_system folder.
 - Once they are safely ensconced in the /lib/systemd/system folder, run these:
   - ```$ sudo systemctl enable poolctl.service```
   - ```$ sudo systemctl enable pooltimer.service```
