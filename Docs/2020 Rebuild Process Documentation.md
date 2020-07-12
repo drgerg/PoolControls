@@ -45,12 +45,12 @@ Let's begin:
 
 - Set a static IP address.
   - ```$ sudo nano /etc/dhcpcd.conf```
-  - Edit the hostname at the top of the file to match your hostname.
-  - Read the examples, the add something like these lines to the bottom:
-    > interface eth0
-    > static ip_address 192.168.1.###/24  (### is your number)
-    > static routers=192.168.1.###  (### is your router's number)
-    > static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)
+    - Edit the hostname at the top of the file to match your hostname.
+    - Read the examples, the add something like these lines to the bottom:
+        > interface eth0
+        > static ip_address 192.168.1.###/24  (### is your number)
+        > static routers=192.168.1.###  (### is your router's number)
+        > static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)
 
   - Save and reboot.  You should see the new IP address.  If not, do:
   - ```$ ip addr```
@@ -74,13 +74,12 @@ Let's begin:
         > dtoverlay w1-gpio,gpiopin=26,pullup=0
         > dtoverlay w1-gpio,gpiopin=19,pullup=0
 
-    -This sets up the Pi to use the 1-wire thermometers we have.
-
-- Prep things for using the Adafruit DS3231 Real-Time Clock (ADA3013)
+    -This sets up the Pi to use the 1-wire thermometers we have.<br><br>
+- Prep the system for using the Adafruit DS3231 Real-Time Clock (ADA3013)
   - ```$ sudo apt-get install python-smbus i2c-tools```
   - ```$ sudo i2cdetect -y 1```
   - The number 68 should be in the resulting table.  If not, reboot and try again.
-  - 68 is the i2c address for the RTC module.
+    - 68 is the i2c address for the RTC module.
   - ```$ sudo apt-get -y remove fake-hwclock```
   - ```$ sudo update-rc.d -f fake-hwclock remove```
   - ```$ sudo nano /lib/udev/hwclock-set```
