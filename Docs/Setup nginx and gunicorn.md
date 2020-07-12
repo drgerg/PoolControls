@@ -128,7 +128,7 @@ That's all for nginx.  Now for gunicorn.
 
 We installed gunicorn earlier.  Really all that's necessary at this point is to create a systemctl file for it.
 
-```sudo nano /lib/systemd/system/poolApp.service```
+```sudo nano /lib/systemd/system/poolctl.service```
 
 That file should look like this when you're done:
 
