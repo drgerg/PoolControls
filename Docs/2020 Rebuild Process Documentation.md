@@ -47,9 +47,9 @@ Let's begin:
   - ```$ sudo nano /etc/dhcpcd.conf```
   - Edit the hostname at the top of the file to match your hostname.
   - Read the examples, the add something like these lines to the bottom:
-    > interface eth0<br>
-    > static ip_address 192.168.1.###/24  (### is your number)<br>
-    > static routers=192.168.1.###  (### is your router's number)<br>
+    > interface eth0
+    > static ip_address 192.168.1.###/24  (### is your number)
+    > static routers=192.168.1.###  (### is your router's number)
     > static domain_name_servers=192.168.1.### #.#.#.# (typically your router and your other favorite)
 
   - Save and reboot.  You should see the new IP address.  If not, do:
@@ -64,13 +64,17 @@ Let's begin:
   - ```$ ssh-copy-id newname@pi-hostname -p portNumber```
 - Edit .bashrc in /home/newname to add the 'll' alias. (Not using sudo. .bashrc is your file.)
   - ```$ nano .bashrc```
-- 
+    - Add ```alias ll='ls -la'``` under the other 'alias' lines.
+
 - Edit /boot/config.txt:
   - ```$ sudo nano /boot/config.txt```
-    - Add these lines to the bottom of the file.<br>
+    - Add these lines to the bottom of the file.
+
         > dtoverlay=i2c-rtc,ds3231 
         > dtoverlay w1-gpio,gpiopin=26,pullup=0
         > dtoverlay w1-gpio,gpiopin=19,pullup=0
+
+    -This sets up the Pi to use the 1-wire thermometers we have.
 
 - Prep things for using the Adafruit DS3231 Real-Time Clock (ADA3013)
   - ```$ sudo apt-get install python-smbus i2c-tools```
@@ -81,9 +85,9 @@ Let's begin:
   - ```$ sudo update-rc.d -f fake-hwclock remove```
   - ```$ sudo nano /lib/udev/hwclock-set```
   - Comment out these lines so it looks like this:
-        > \#if [ -e /run/systemd/system ] ; then
-        > \#    exit 0
-        > \#fi
+         ```# if [ -e /run/systemd/system ] ; then```
+         ```#    exit 0```
+         ```# fi```
 - Reboot (just for safety's sake)
 - Check the date and time.
   - ``$ date``
