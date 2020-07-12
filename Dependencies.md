@@ -17,6 +17,16 @@ matplotlib - Matplotlib is a Python 2D plotting library which produces publicati
 
 >```sudo pip3 install matplotlib```
 
+I had issues with numpy, however.  The fix was to uninstall the version matplotlib installed and do it differently.
+
+>```sudo pip3 uninstall numpy```
+
+followed by
+
+>```sudo apt-get install python3-numpy```
+
+That seems to solve that issue.  More data here: [numpy.org](https://numpy.org/devdocs/user/troubleshooting-importerror.html)
+
 That's what I know today.
 
 #### RTC-Nano Real-time Clock module
