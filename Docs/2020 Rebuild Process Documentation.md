@@ -81,9 +81,9 @@ Let's begin:
   - ```$ sudo update-rc.d -f fake-hwclock remove```
   - ```$ sudo nano /lib/udev/hwclock-set```
   - Comment out these lines so it looks like this:
-        > #if [ -e /run/systemd/system ] ; then
-        > #    exit 0
-        > #fi
+        > \#if [ -e /run/systemd/system ] ; then
+        > \#    exit 0
+        > \#fi
 - Reboot (just for safety's sake)
 - Check the date and time.
   - ``$ date``
