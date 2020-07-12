@@ -11,6 +11,7 @@ Let's begin:
   - <https://www.raspberrypi.org/downloads/>
 - Install Imager on Windows machine
 - Run Imager and write your selected OS to your SD card
+- Attach a display and keyboard/mouse to the Pi
 - Insert SD card and boot Pi
   - Login - username: pi, password: raspberry
 - Run "sudo raspi-config" at command prompt
