@@ -95,8 +95,8 @@ Let's begin:
     - ``$ sudo hwclock -r``
 
 
-- Follow ['Dependencies required to make poolApp.py work'](https://github.com/casspop/PoolControls/blob/master/Dependencies.md)
-- Follow ['Setup nginx and gunicorn'](https://github.com/casspop/PoolControls/blob/master/Setup%20nginx%20and%20gunicorn.md)
+- Follow ['Dependencies required to make poolApp.py work'](./Dependencies.md)
+- Follow ['Setup nginx and gunicorn'](./Setup%20nginx%20and%20gunicorn.md)
 
 - At this point, we need to install the Python modules that our system needs.
         (NOTE: os,sys,time,logging,signal,configparser,mysql.connector)
@@ -104,8 +104,11 @@ Let's begin:
   - ```$ sudo pip3 install mysql.connector```
   - ```$ sudo pip3 install configparser```
   
-  - Double-check that you have both of the system service files:
-    - /lib/systemd/system/poolctrl.service
+- Double-check that you have both of the system service files:
+    - /lib/systemd/system/poolctl.service
     - /lib/systemd/system/pooltimer.service
-    - 
-
+- Once they are both safely ensconced in the /lib/systemd/system folder, run these:
+  - ```$ sudo systemctl enable poolctl.service```
+  - ```$ sudo systemctl enable pooltimer.service```
+  - ```$ sudo systemctl daemon-reload```
+- Reboot again.
