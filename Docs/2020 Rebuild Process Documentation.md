@@ -15,6 +15,16 @@ Let's begin:
   - Login - username: pi, password: raspberry
 - Run "sudo raspi-config" at command prompt
         Make changes to Network, Hostname, localization, timezone, enable SSH
+            ```a. Select Network```
+            ```b. Select Hostname - give your Pi a name.```
+            ```c. Select wifi: SSID and password - provide the SSID and password to connect to your network.```
+            ```d. Select localization option: set to your area (en_US_utf-8)```
+            ```e. Select localization option: set timezone```
+            ```f. Select localization option: change keyboard layout```
+            ```g. Select Interfacing options: enable SSH```
+
+The official resource for raspi-config is here: [raspberrypi.org](https://www.raspberrypi.org/documentation/configuration/raspi-config.md)
+
 - Reboot.
 - Install pip3 (two steps)
   - ```$ sudo apt-get update```
