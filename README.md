@@ -1,5 +1,5 @@
 # PoolControls
-![The front page of controls on my phone.](./Pics/Main Screen.png)
+![The front page of controls on my phone.](./Pics/Main%20Screen.png)
 ### The front page of controls.
 
 Pool Controls uses a Raspberry Pi and an Elegoo 8-relay board to control a multi-speed pool pump and pool lights.
