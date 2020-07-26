@@ -75,7 +75,7 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
   - You will get an warning message when you log in. That's normal. Read, follow, fix.
 
 - Log in using SSH and do the rest of this more comfortably.
-- Log back out, and set up key-based login (only if you already have this working. Otherwise, you have to set that up first.)
+- Log back out, and set up key-based login (only if you already have this working. Otherwise, you have to [set that up first](https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/).)
   - ```$ ssh-copy-id newname@pi-hostname -p portNumber```
 - Edit .bashrc in /home/newname to add the 'll' alias. (Not using sudo. .bashrc is your file.)
   - ```$ nano .bashrc```
