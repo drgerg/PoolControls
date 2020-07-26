@@ -115,7 +115,6 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
 - Follow ['Setup nginx and gunicorn'](./Setup%20nginx%20and%20gunicorn.md)
 
 - At this point, we need to install the Python modules that our system needs.
-        (NOTE: os,sys,time,logging,signal,configparser,mysql.connector)
   - ```$ sudo pip3 install flask_wtf```
   - ```$ sudo pip3 install mysql.connector```
   - ```$ sudo pip3 install configparser```
