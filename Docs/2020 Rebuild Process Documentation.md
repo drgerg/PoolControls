@@ -125,7 +125,7 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
   
 - Double-check that you have all three of the system service files:
   - ```$ ls -la /lib/systemd/system/pool*.*```
-  - 
+
 - You should see those three files listed.
     - /lib/systemd/system/poolctl.service
     - /lib/systemd/system/pooltimer.service
