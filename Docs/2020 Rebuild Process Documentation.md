@@ -124,10 +124,12 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
   - ```$ sudo chmod 755 poolSQL.py```
   
 - Double-check that you have all three of the system service files:
+  - ```$ ls -la /lib/systemd/system/pool*.*```
     - /lib/systemd/system/poolctl.service
     - /lib/systemd/system/pooltimer.service
     - /lib/systemd/system/poolSQL.service
-- You can re-create them by copying the file contents from the template files in the _lib_systemd_system folder.
+- You should see those three files listed. If not, you can re-create them by 
+- copying the file contents from the template files in the _lib_systemd_system folder.
 - Once they are safely ensconced in the /lib/systemd/system folder, run these:
   - ```$ sudo systemctl enable poolctl.service```
   - ```$ sudo systemctl enable pooltimer.service```
