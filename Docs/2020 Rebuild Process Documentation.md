@@ -97,10 +97,10 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
      > greg@shoppi:~ $ cd /sys/bus/w1/devices/28-01144d33a8aa<br>
      > greg@shoppi:~ $ cat w1_slave
     - should return something like this:
-     > ba 01 4b 46 7f ff 0c 10 37 : crc=37 YES
+     > ba 01 4b 46 7f ff 0c 10 37 : crc=37 YES<br>
      > ba 01 4b 46 7f ff 0c 10 37 t=27625 
     - The t=value is the temp in C. Give it 3 decimal places, and there you are.
-    - 27.625 degrees Celsius.  (81.725 degrees F, which is correct in this room.)
+      27.625 degrees Celsius.  (81.725 degrees F, which is correct in this room.)
 - Prep the system for using the Adafruit DS3231 Real-Time Clock (ADA3013)
   - ```$ sudo apt-get install python-smbus i2c-tools```
   - ```$ sudo i2cdetect -y 1```
