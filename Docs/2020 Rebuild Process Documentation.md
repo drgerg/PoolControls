@@ -86,10 +86,14 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
     - Add these lines to the bottom of the file.
 
         > dtoverlay=i2c-rtc,ds3231<br>
-        > dtoverlay w1-gpio,gpiopin=26,pullup=0<br>
-        > dtoverlay w1-gpio,gpiopin=19,pullup=0<br>
+        > dtoverlay=w1-gpio,gpiopin=26,pullup=0<br>
+        > dtoverlay=w1-gpio,gpiopin=19,pullup=0<br>
 
-    -This sets up the Pi to use the 1-wire thermometers we have.<br><br>
+    - This sets up the Pi to use the 1-wire thermometers we have.
+    - The following should return a serial number for each 1-wire device.
+    - ```greg@shoppi:~ $ ls /sys/bus/w1/devices/```
+      ```28-01144d33a8aa  w1_bus_master1```
+    - The serial number here is '28-01144d33a8aa'.
 - Prep the system for using the Adafruit DS3231 Real-Time Clock (ADA3013)
   - ```$ sudo apt-get install python-smbus i2c-tools```
   - ```$ sudo i2cdetect -y 1```
