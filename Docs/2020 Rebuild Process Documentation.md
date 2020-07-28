@@ -94,6 +94,8 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
     - > greg@shoppi:~ $ ls /sys/bus/w1/devices/<br>
       > 28-01144d33a8aa  w1_bus_master1
     - The serial number here is '28-01144d33a8aa'.
+    - > greg@shoppi:~ $ cd /sys/bus/w1/devices/28-01144d33a8aa
+    - > greg@shoppi:~ $ cat w1_slave
 - Prep the system for using the Adafruit DS3231 Real-Time Clock (ADA3013)
   - ```$ sudo apt-get install python-smbus i2c-tools```
   - ```$ sudo i2cdetect -y 1```
