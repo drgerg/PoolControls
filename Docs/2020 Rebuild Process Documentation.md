@@ -91,7 +91,7 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
 
     - This sets up the Pi to use the 1-wire thermometers we have.
     - The following should return a serial number for each 1-wire device.
-    - ```greg@shoppi:~ $ ls /sys/bus/w1/devices/```
+    - ```greg@shoppi:~ $ ls /sys/bus/w1/devices/```<br>
       ```28-01144d33a8aa  w1_bus_master1```
     - The serial number here is '28-01144d33a8aa'.
 - Prep the system for using the Adafruit DS3231 Real-Time Clock (ADA3013)
