@@ -91,11 +91,11 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
 
     - This sets up the Pi to use the 1-wire thermometers we have.
     - The following should return a serial number for each 1-wire device.
-     > greg@shoppi:~ $ ls /sys/bus/w1/devices/<br>
+     > greg@poolpi:~ $ ls /sys/bus/w1/devices/<br>
      > 28-01144d33a8aa  w1_bus_master1
     - The serial number here is '28-01144d33a8aa'.
-     > greg@shoppi:~ $ cd /sys/bus/w1/devices/28-01144d33a8aa<br>
-     > greg@shoppi:~ $ cat w1_slave
+     > greg@poolpi:~ $ cd /sys/bus/w1/devices/28-01144d33a8aa<br>
+     > greg@poolpi:~ $ cat w1_slave
     - should return something like this:
      > ba 01 4b 46 7f ff 0c 10 37 : crc=37 YES<br>
      > ba 01 4b 46 7f ff 0c 10 37 t=27625 
@@ -104,7 +104,8 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
 - Prep the system for using the Adafruit DS3231 Real-Time Clock (ADA3013)
   - ```$ sudo apt-get install python-smbus i2c-tools```
   - ```$ sudo i2cdetect -y 1```
-  - The number 68 should be in the resulting table.  If not, reboot and try again.
+  - The number 68 should be in the resulting table.<br>
+    It is possible you may see UU instead of 68 depending on your hardware.  If so, carry on with the following.  If not, reboot and try again.
     - 68 is the i2c address for the RTC module.
   - ```$ sudo apt-get -y remove fake-hwclock```
   - ```$ sudo update-rc.d -f fake-hwclock remove```
