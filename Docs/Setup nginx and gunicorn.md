@@ -89,7 +89,8 @@ Now we need to create a 'sites-available' file pointing to our app.
                     include proxy_params;
                 }
 
-                location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|$            access_log off;
+                location ~* .(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|css|rss|atom|js|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|$) {
+                    access_log off;
                     log_not_found off;
                     expires max;
                 }
