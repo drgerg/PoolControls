@@ -121,6 +121,8 @@ The official resource for **raspi-config** is here: [raspberrypi.org](https://ww
     - ``$ sudo hwclock -w``
   - Read it to see if all went well.
     - ``$ sudo hwclock -r``
+  - Set the system time from the hardware clock:
+  -   ``$ sudo hwclock -s``
 
 
 - Follow ['Dependencies required to make poolApp.py work'](./Dependencies.md)
